@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!wp-content/themes/Newspaper/includes/wp_booster/td_module.php
