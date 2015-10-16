@@ -1,0 +1,21 @@
+.td-module-comments {
+background-color: #848484 !important;
+border-radius: 2px;
+border-bottom-right-radius: 0;
+}
+.td-module-comments a {
+color: #ffffff;
+padding: 2px 6px 3px 6px;
+display: inline-block;
+min-width: 25px;
+height: 20px;
+line-height: 16px;
+background-color: transparent
+}
+.td-module-comments a:after {
+left: auto !important;
+right: 0;
+border-color: #5b5b5b transparent transparent transparent;
+border-width: 5px 5px 0 0;
+bottom: -5px;
+}

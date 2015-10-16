@@ -1,0 +1,192 @@
+/*
+Theme Name:     Kleo Child
+Theme URI:
+Description:    Child theme for Kleo
+Author:         SeventhQueen
+Author URI:     http://seventhqueen.com
+Template:       kleo
+Tags:  one-column, two-columns, right-sidebar, fluid-layout, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+License: GNU General Public License
+License URI: license.txt
+*/
+
+/*
+* Please add your custom styles below
+*/
+/* fix the issue where comment box overlaps the tooltip of button in lightbox */
+.mfp-content #buddypress .rtm-lightbox-container .rtmedia-single-meta .rtm-single-meta-contents {
+	padding: 0 0 20px 0 !important;
+}
+
+/* make "post in" to be aligned with others on activity stream page */
+#buddypress #whats-new-options > div {
+	padding-top: 0;
+}
+
+#comment,
+#buddypress div.activity-comments form textarea, /* activity comment */
+#message_content,
+#group-desc,
+#whats-new {
+	resize: vertical;
+}
+
+/* displaying chinese date and time without breaking line */
+article .article-meta {
+	width: 120px;
+}
+.single .container .with-meta .article-content,
+.posts-listing.standard-listing.with-meta .article-content {
+	margin-left: 140px;
+}
+
+/* fix the layout issue with long message */
+#message-subject {
+	word-wrap: break-word;
+	max-width: 95%;
+}
+.message-content {
+	word-wrap: break-word;
+}
+
+/* Profiles: FOLLOWING icon */
+#buddypress div#item-nav ul #members-following-personal-li a:before { content: "\E83F"; }
+
+/* Profiles: FOLLOWER icon */
+#buddypress div#item-nav ul #members-followers-personal-li a:before { content: "\E98F"; }
+
+/* Profiles: FRIENDS icon */
+#buddypress div#item-nav ul #friends-personal-li a:before { content: "\E82B"; }
+
+/** MEDIA ICON */
+/* Profiles */
+#buddypress div#item-nav ul #media-personal-li a:before { content: "\E81B"; }
+/* Group */
+#buddypress div#item-nav ul #rtmedia-media-nav-groups-li a:before { content: "\E81B"; }
+
+.buddypress div#item-header div#item-meta p {
+	overflow: visible;
+	word-wrap: break-word;
+}
+
+#main .alternate-color h1 {
+	max-width: 80% !important;
+	word-wrap: break-word;
+}
+
+.widget.buddypress div.item-title {
+	word-wrap: break-word;
+}
+
+.item-desc {
+	width: 95%;
+}
+
+#groups-list .item-desc p,
+#groups-dir-list .item-desc p {
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+#groups-list .item-title a,
+#groups-dir-list .item-title a {
+	word-wrap: break-word;
+}
+
+#rtmedia_create_new_album, /* create album button */
+#rtmedia_album_name /* album name input */ {
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	font-family: inherit;
+	padding: 0.428571rem;
+}
+
+/** -=== FIX CSS ISSUES IN RTMEDIA ===-  */
+/* give same height as pagination numbers' */
+#rtmedia_go_to_num {
+	height: 30px;
+}
+.dashicons,
+.dashicons-before::before {
+	vertical-align: middle;
+}
+.rtm-pagination .dashicons {
+	margin-top: -1px;
+}
+/* fix pagination numbers are not aligned centrally */
+.rtm-pagination .rtm-paginate a.rtmedia-page-link {
+	padding: 0 8px;
+}
+/* fix bug the pagination numbers are not aligned to each other */
+.rtmedia-container .rtmedia_next_prev a {
+	overflow: visible;
+}
+
+/* give a fixed width to album creation page */
+.rtmedia-popup {
+	width: 230px;
+}
+/* 180px in original size is too long */
+#rtm-media-options-list .rtm-options {
+	width: 100px;
+}
+/** -=== FIX CSS ISSUES IN RTMEDIA - END ===-  */
+
+/* align favourite button on activity */
+#buddypress a.button.fav, #buddypress a.button.unfav {
+	top: 5px;
+}
+
+/* fix activity header issue when resize to 320*480 */
+@media screen and (max-width: 480px) {
+	#buddypress a.button.fav, #buddypress a.button.unfav {
+		right: -10px
+	}
+	#buddypress .activity-header {
+		margin: 0 20px 20px 0 !important;
+	}
+}
+
+/* fix the article font-size */
+article .article-meta .entry-date {
+	font-size: 11px;
+}
+
+/* re-styling kleo drop-down arrow */
+.kleo-toggle-menu .kleo-toggle-submenu:before {
+	position: absolute;
+	top: -6px;
+	left: auto;
+	right: 20px;
+	content: '';
+	width: 10px;
+	height: 10px;
+	border: 1px solid #e5e5e5;
+	border-right-style: none;
+	border-bottom-width: 0;
+}
+/* add an arrow for Boostrap dropdown menu */
+.navbar .nav > li > .dropdown-menu::before {
+	position: absolute;
+	top: -11px;
+	left: 9px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #E5E5E5;
+	border-left: 7px solid transparent;
+	content: '';
+}
+.navbar .nav > li > .dropdown-menu::after {
+	position: absolute;
+	top: -10px;
+	left: 10px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid white;
+	border-left: 6px solid transparent;
+	content: '';
+}

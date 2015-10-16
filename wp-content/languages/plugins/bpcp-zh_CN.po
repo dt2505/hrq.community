@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Cover Photo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Jul 02 2015 17:16:25 GMT+0300 (EEST)\n"
+"PO-Revision-Date: Sat Aug 15 2015 12:35:53 GMT+1000 (AEST)\n"
+"Last-Translator: wp-dev-admin <wp-dev-admin@gmail.com>\n"
+"Language-Team: \n"
+"Language: Chinese (China)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: zh_CN"
+
+#. the title of your section
+#: ../buddypress-cover-photo.php:110
+msgid "Cover Photo Settings"
+msgstr "封面设置\n"
+
+#. The title for your setting
+#: ../buddypress-cover-photo.php:125
+msgid "Default Profile Cover"
+msgstr "默认封面照片\n"
+
+#. The title for your setting
+#: ../buddypress-cover-photo.php:157
+msgid "Default Group Cover"
+msgstr "默认群封面照片\n"
+
+#: ../buddypress-cover-photo.php:195
+msgid "Define a default profile or group cover image"
+msgstr "定义一张默认的个人或群封面照片\n"
+
+#: ../group-cover.php:25
+msgid "Cover Photo"
+msgstr "封面照片"
+
+#: ../group-cover.php:73 ../profile-cover.php:51 ../profile-cover.php:77
+msgid "Change Cover"
+msgstr "更改封面照片"
+
+#: ../group-cover.php:75 ../profile-cover.php:53
+msgid "Add Cover"
+msgstr "添加封面照片"
+
+#: ../group-cover.php:166 ../profile-cover.php:286
+msgid "Cover photo deleted successfully!"
+msgstr "封面照片删除成功\n"
+
+#: ../group-cover.php:207 ../profile-cover.php:143
+msgid "Delete"
+msgstr "删除\n"
+
+#: ../group-cover.php:211
+msgid "If you want to change your group cover, please upload a new image."
+msgstr "如果您想更改您的群封面，请上传一张新的照片\n"
+
+#: ../group-cover.php:216 ../profile-cover.php:153
+msgid "Please choose your background repeat option"
+msgstr "请选择您的背景重复选项\n"
+
+#: ../group-cover.php:227 ../profile-cover.php:160
+msgid "Center"
+msgstr "居中\n"
+
+#: ../group-cover.php:227 ../profile-cover.php:160
+msgid "Top"
+msgstr "上"
+
+#: ../group-cover.php:227 ../profile-cover.php:160
+msgid "Bottom"
+msgstr "下\n"
+
+#: ../group-cover.php:267 ../profile-cover.php:112
+msgid "Cover photo uploaded successfully!"
+msgstr "封面照片上传成功\n"
+
+#: ../group-cover.php:281 ../profile-cover.php:193
+#, php-format
+msgid "Upload Failed! Error was: %s"
+msgstr "上传失败！错误是：%s"
+
+#: ../profile-cover.php:95
+msgid "Security check failed"
+msgstr "安全检查失败\n"
+
+#: ../profile-cover.php:125
+msgid "Add/Update Your Profile Cover Image"
+msgstr "添加/更新您的个人封面照片\n"
+
+#: ../profile-cover.php:147
+msgid "If you want to change your profile cover, please upload a new image."
+msgstr "如果您想要更改您的个人封面，请上传一张新照片\n"
+
+#: ../profile-cover.php:180
+msgid "Save"
+msgstr ""

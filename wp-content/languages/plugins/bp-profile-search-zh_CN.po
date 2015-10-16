@@ -1,0 +1,526 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BP Profile Search 4.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bp-profile-search\n"
+"POT-Creation-Date: 2015-04-20 17:28:54+00:00\n"
+"PO-Revision-Date: Sat Aug 15 2015 13:39:17 GMT+1000 (AEST)\n"
+"Last-Translator: wp-dev-admin <wp-dev-admin@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: Chinese (China)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: zh_CN\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: bps-form.php:49 bps-form.php:232 bps-functions.php:239
+#, c-format
+msgid "%s: The BuddyPress Extended Profiles component is not active."
+msgstr "%s: BuddyPress扩展资料组件没有被激活。"
+
+#: bps-form.php:57
+#, c-format
+msgid "%s: Form %d was not found, or has no fields."
+msgstr "%s: 没有找到表单%d，或表单没有任何项。"
+
+#: bps-form.php:68
+#, c-format
+msgid "%s: The form template \"%s\" was not found."
+msgstr "%s: 没有找到表单“%s”模板。"
+
+#: bps-form.php:89
+#, c-format
+msgid "%s: The filters template \"%s\" was not found."
+msgstr "%s: 没有找到筛选器“%s”模板。"
+
+#: bps-form.php:237
+#, c-format
+msgid "%s: Multiple directories are not supported for this theme."
+msgstr "%s: 该主题不支持多目录。"
+
+#: bps-form.php:245
+#, c-format
+msgid "%s: The directory template \"%s\" was not found."
+msgstr "%s: 没有找到目录“%s”模板。"
+
+#: bps-form.php:256
+msgid "A Profile Search form."
+msgstr "一个资料搜索表单\n"
+
+#: bps-form.php:257 bps-functions.php:15 bps-main.php:113
+msgid "Profile Search"
+msgstr "资料搜索\n"
+
+#: bps-form.php:290
+msgid "Title:"
+msgstr "标题：\n"
+
+#: bps-form.php:294
+msgid "Form:"
+msgstr "表单：\n"
+
+#: bps-form.php:303 bps-functions.php:279
+msgid "(no title)"
+msgstr "（无标题）\n"
+
+#: bps-form.php:313
+msgid "You have not created any form yet."
+msgstr "您还没有创建任何表单。\n"
+
+#: bps-form.php:318
+msgid "Template:"
+msgstr "模板：\n"
+
+#: bps-functions.php:9
+msgid "Overview"
+msgstr "概况\n"
+
+#: bps-functions.php:12
+msgid "Configure your profile search form, then display it:"
+msgstr "配置您的资料搜索表单，然后显示：\n"
+
+#: bps-functions.php:14
+#, c-format
+msgid "In its Members Directory page, selecting the option %s"
+msgstr "在成员用户目录页面，选择选项%s\n"
+
+#: bps-functions.php:14 bps-functions.php:41 bps-main.php:142 bps-main.php:209
+#: bps-main.php:217 bps-main.php:218
+msgid "Add to Directory"
+msgstr "添加到目录\n"
+
+#: bps-functions.php:15
+#, c-format
+msgid "In a sidebar or widget area, using the widget %s"
+msgstr "在边栏或小工具区域，使用该小工具%s\n"
+
+#: bps-functions.php:16
+#, c-format
+msgid "In a post or page, using the shortcode %s (*)"
+msgstr "在文章或页面中，使用便捷代码%s (*)"
+
+#: bps-functions.php:17
+#, c-format
+msgid "Anywhere in your theme, using the PHP code %s (*)"
+msgstr "在您主题的任何地方，使用PHP代码%s (*)"
+
+#: bps-functions.php:19
+msgid ""
+"(*) Replace <em>id</em> with your actual form ID, and <em>tpl</em> with the "
+"name of the form template you want to use."
+msgstr "(*) 使用您实际的表单ID替换<em>id</em>，并且使用您想要用的模板名字替换<em>tpl</em>。"
+
+#: bps-functions.php:22 bps-main.php:207
+msgid "Form Fields"
+msgstr "表单项\n"
+
+#: bps-functions.php:25
+msgid "Select the profile fields to show in your search form."
+msgstr "选择要在您搜索表单中显示的资料项。\n"
+
+#: bps-functions.php:27
+msgid ""
+"Customize the field label and description, or leave them empty to use the "
+"default"
+msgstr "自定义项标签和描述，或让它们为空并使用默认值\n"
+
+#: bps-functions.php:28
+msgid ""
+"Tick <em>Range</em> to enable the <em>Value Range Search</em> for numeric "
+"fields, or the <em>Age Range Search</em> for date fields"
+msgstr "勾选<em>范围</em>为数值项启用<em>值范围搜索</em>，或为日期项启用<em>年龄范围搜索</em>"
+
+#: bps-functions.php:29
+msgid ""
+"To reorder the fields in the form, drag them up or down by the handle on the "
+"left"
+msgstr "通过左侧把手的拖放对表单中的值项重新排序\n"
+
+#: bps-functions.php:30
+msgid "To remove a field from the form, click the [x] on the right"
+msgstr "点击右侧的[x]按钮来删除表单中的值项"
+
+#: bps-functions.php:32
+msgid "Please note:"
+msgstr "请注意：\n"
+
+#: bps-functions.php:34
+msgid "To leave a field description blank, enter a single dash (-) character"
+msgstr "在值项描述中输入单短横线（-）表示为空\n"
+
+#: bps-functions.php:35
+msgid "The <em>Age Range Search</em> option is mandatory for date fields"
+msgstr "<em>年龄范围搜索</em>是必选的日期选项"
+
+#: bps-functions.php:36
+msgid "The <em>Value Range Search</em> works for numeric fields only"
+msgstr "<em>值范围搜索</em>只对数值项有效"
+
+#: bps-functions.php:37
+msgid ""
+"The <em>Value Range Search</em> is not supported for <em>Multi Select "
+"Box</em> and <em>Checkboxes</em> fields"
+msgstr "<em>多选框</em>和<em>复选框</em>值项不支持<em>值范围搜索</em>"
+
+#: bps-functions.php:44
+msgid "Insert your search form in its Members Directory page."
+msgstr "在您的成员目录页面插入搜索表单\n"
+
+#: bps-functions.php:46
+msgid "Select the form template to use"
+msgstr "选择要用的表单模板\n"
+
+#: bps-functions.php:47
+msgid "Specify the optional form header"
+msgstr "指定可选的表单页眉\n"
+
+#: bps-functions.php:48
+msgid "Enable the <em>Toggle Form</em> feature"
+msgstr "启用<em>表单切换</em>"
+
+#: bps-functions.php:49
+msgid "Enter the text for the <em>Toggle Form</em> button"
+msgstr "输入<em>表单切换</em>按钮标题"
+
+#: bps-functions.php:51
+msgid "If you select <em>Add to Directory: No</em>, the above options are ignored."
+msgstr "如果您选择<em>添加到目录：不</em>，以上的的选项会被忽略。"
+
+#: bps-functions.php:54 bps-main.php:208
+msgid "Form Attributes"
+msgstr "表单属性\n"
+
+#: bps-functions.php:57
+msgid "Select your form’s <em>method</em> attribute."
+msgstr "选择您的表单<em>提交方式</em>属性。\n"
+
+#: bps-functions.php:59
+msgid ""
+"POST: the form data are not visible in the URL and it’s not possible to "
+"bookmark the results page"
+msgstr "POST: 表单数据在网址中不可见且其结果不可作为书签"
+
+#: bps-functions.php:60
+msgid ""
+"GET: the form data are sent as URL variables and it’s possible to bookmark "
+"the results page"
+msgstr "GET: 表单数据作为网址参数发送且其结果可以作为书签"
+
+#: bps-functions.php:62
+msgid ""
+"Select your form’s <em>action</em> attribute. The <em>action</em> attribute "
+"points to your form’s results page, that could be:"
+msgstr "选择您的表单<em>动作</em>属性。该<em>动作</em>属性会指向您的表单搜索结果页面，该动作会是："
+
+#: bps-functions.php:64
+msgid "The BuddyPress Members Directory page"
+msgstr "BuddyPress会员目录页面\n"
+
+#: bps-functions.php:65
+msgid "A custom Members Directory page"
+msgstr "一个自定义的会员目录页面\n"
+
+#: bps-functions.php:67
+#, c-format
+msgid ""
+"You can create a custom Members Directory page using the shortcode %s, and "
+"you can even use a custom directory template."
+msgstr "您可以使用便捷代码%s创建一个自定义的会员目录页面，而且您甚至能使用一个自定义的目录模板。\n"
+
+#: bps-functions.php:68
+msgid ""
+"To learn more, read the <a href=\"http://dontdream.it/bp-profile-"
+"search/custom-directories/\" target=\"_blank\">Custom Directories</a> tutorial."
+msgstr ""
+"要了解更多，请参考<a href=\"http://dontdream.it/bp-profile-search/custom-directories/\" "
+"target=\"_blank\">自定义目录</a>教程。"
+
+#: bps-functions.php:71 bps-main.php:210
+msgid "Text Search Mode"
+msgstr "文本搜索模式\n"
+
+#: bps-functions.php:74
+msgid "Select your text search mode."
+msgstr "选择您的文本搜索模式。\n"
+
+#: bps-functions.php:76
+msgid ""
+"LIKE: a search for <em>John</em> finds <em>John</em>, <em>Johnson</em>, "
+"<em>Long John Silver</em>, and so on"
+msgstr ""
+"LIKE: 搜索<em>John</em>会找到<em>John</em>，<em>Johnson</em>，<em>Long John "
+"Silver</em>等等"
+
+#: bps-functions.php:77
+msgid "SAME: a search for <em>John</em> finds <em>John</em> only"
+msgstr "SAME: 搜索<em>John</em>只能找到<em>John</em>"
+
+#: bps-functions.php:79
+msgid "In both modes, two wildcard characters are available:"
+msgstr "有两种通配符可以在这两种方式中使用：\n"
+
+#: bps-functions.php:81
+msgid "Percent sign (%): matches any text, or no text at all"
+msgstr "百分号 (%)：匹配任意文字，或非文字项"
+
+#: bps-functions.php:82
+msgid "Underscore (_): matches any single character"
+msgstr "下划线(_)：匹配任意单个字符"
+
+#: bps-functions.php:87
+msgid "For more information:"
+msgstr "更多信息：\n"
+
+#: bps-functions.php:88
+msgid "Documentation"
+msgstr "文档\n"
+
+#: bps-functions.php:89
+msgid "Questions and Answers"
+msgstr "问题与答案\n"
+
+#: bps-functions.php:90
+msgid "Incompatible plugins"
+msgstr "不兼容的插件\n"
+
+#: bps-functions.php:91
+msgid "Support Forum"
+msgstr "支持论坛\n"
+
+#: bps-functions.php:108
+msgid "field"
+msgstr "项\n"
+
+#: bps-functions.php:109
+msgid "label"
+msgstr "标签\n"
+
+#: bps-functions.php:110
+msgid "description"
+msgstr "描述\n"
+
+#: bps-functions.php:111 bps-functions.php:195
+msgid "Range"
+msgstr "范围\n"
+
+#: bps-functions.php:203
+msgid "Add Field"
+msgstr "新增值项\n"
+
+#: bps-functions.php:275 bps-functions.php:281
+msgid "unused"
+msgstr "未用的\n"
+
+#: bps-main.php:73
+msgid "Settings"
+msgstr "设置\n"
+
+#: bps-main.php:91
+msgid "<h4>Advanced Search</h4>"
+msgstr "<h4>高级搜索</h4>"
+
+#: bps-main.php:93
+msgid "Hide/Show Form"
+msgstr "隐藏/显示表单\n"
+
+#: bps-main.php:111
+msgid "Profile Search Forms"
+msgstr "资料搜索表单\n"
+
+#: bps-main.php:112
+msgid "Profile Search Form"
+msgstr "资料搜索表单\n"
+
+#: bps-main.php:114
+msgid "Add New"
+msgstr "新建"
+
+#: bps-main.php:115
+msgid "Add New Form"
+msgstr "新建表单\n"
+
+#: bps-main.php:116
+msgid "Edit Form"
+msgstr "编辑表单\n"
+
+#: bps-main.php:117
+msgid "No forms found."
+msgstr "没有发现表单。\n"
+
+#: bps-main.php:118
+msgid "No forms found in Trash."
+msgstr "没有在垃圾箱中发现表单。\n"
+
+#: bps-main.php:139
+msgid "Form"
+msgstr "表单\n"
+
+#: bps-main.php:140
+msgid "Fields"
+msgstr "值项\n"
+
+#: bps-main.php:141
+msgid "Directory"
+msgstr "目录\n"
+
+#: bps-main.php:143
+msgid "Widget"
+msgstr "小工具\n"
+
+#: bps-main.php:144
+msgid "Shortcode"
+msgstr "便捷代码\n"
+
+#: bps-main.php:156
+msgid "undefined"
+msgstr "未定义的\n"
+
+#: bps-main.php:167
+msgid "Move to Trash"
+msgstr "垃圾箱\n"
+
+#: bps-main.php:168
+msgid "Restore"
+msgstr "恢复\n"
+
+#: bps-main.php:169
+msgid "Delete Permanently"
+msgstr "永久删除\n"
+
+#: bps-main.php:220
+msgid "Yes"
+msgstr "是\n"
+
+#: bps-main.php:221
+msgid "No"
+msgstr "否\n"
+
+#: bps-main.php:224
+msgid "Form Template"
+msgstr "表单模板\n"
+
+#: bps-main.php:237 bps-main.php:238
+msgid "Form Header"
+msgstr "表单页眉\n"
+
+#: bps-main.php:241 bps-main.php:242
+msgid "Toggle Form"
+msgstr "切换表单\n"
+
+#: bps-main.php:244
+msgid "Enabled"
+msgstr "已启用"
+
+#: bps-main.php:245
+msgid "Disabled"
+msgstr "已禁用"
+
+#: bps-main.php:248 bps-main.php:249
+msgid "Toggle Form Button"
+msgstr "切换表单按钮\n"
+
+#: bps-main.php:258 bps-main.php:259
+msgid "Form Method"
+msgstr "表单提交方式\n"
+
+#: bps-main.php:261
+msgid "POST"
+msgstr "POST"
+
+#: bps-main.php:262
+msgid "GET"
+msgstr "GET"
+
+#: bps-main.php:265 bps-main.php:266
+msgid "Form Action (Results Directory)"
+msgstr "表单动作（结果目录）\n"
+
+#: bps-main.php:280
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr "需要帮助？使用屏幕右上角的“帮助”标签。\n"
+
+#: bps-main.php:289
+msgid "LIKE"
+msgstr "LIKE"
+
+#: bps-main.php:290
+msgid "SAME"
+msgstr "SAME"
+
+#: bps-main.php:316
+msgid "Form updated."
+msgstr "表单已更新。\n"
+
+#: bps-main.php:321
+msgid "Form created."
+msgstr "表单已创建。\n"
+
+#: bps-main.php:337
+#, c-format
+msgid "%s form permanently deleted."
+msgid_plural "%s forms permanently deleted."
+msgstr[0] "%s个表单已永久删除。\n"
+msgstr[1] ""
+
+#: bps-main.php:338
+#, c-format
+msgid "%s form moved to the Trash."
+msgid_plural "%s forms moved to the Trash."
+msgstr[0] "%s个表单已丢到垃圾箱"
+msgstr[1] ""
+
+#: bps-main.php:339
+#, c-format
+msgid "%s form restored from the Trash."
+msgid_plural "%s forms restored from the Trash."
+msgstr[0] "%s个表单已从垃圾箱中恢复。\n"
+msgstr[1] ""
+
+#: templates/members/bps-filters.php:21
+msgid "min"
+msgstr "最小\n"
+
+#: templates/members/bps-filters.php:23
+msgid "max"
+msgstr "最大\n"
+
+#: templates/members/bps-filters.php:54
+#: templates/members/bps-form-legacy.php:125
+#: templates/members/bps-form-sample-1.php:147
+msgid "Clear"
+msgstr "清除\n"
+
+#: templates/members/bps-form-legacy.php:153
+#: templates/members/bps-form-sample-1.php:175
+#: templates/members/bps-form-sample-2.php:105
+msgid "Search"
+msgstr "搜索\n"
+
+#. Plugin Name of the plugin/theme
+msgid "BP Profile Search"
+msgstr "BP资料搜索\n"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.dontdream.it/bp-profile-search/"
+msgstr "http://www.dontdream.it/bp-profile-search/"
+
+#. Description of the plugin/theme
+msgid "Search your BuddyPress Members Directory."
+msgstr "搜索您的BuddyPress会员目录。\n"
+
+#. Author of the plugin/theme
+msgid "Andrea Tarantini"
+msgstr "安德鲁·塔拉迪尼 （Andrea Tarantini）"
+
+#. Author URI of the plugin/theme
+msgid "http://www.dontdream.it/"
+msgstr "http://www.dontdream.it/"

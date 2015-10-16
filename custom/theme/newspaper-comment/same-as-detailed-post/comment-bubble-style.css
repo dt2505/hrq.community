@@ -1,0 +1,11 @@
+
+.td_module_wrap .td-post-comments {
+display: inline-block;
+float: right;
+}
+.td_module_wrap .td-post-comments .td-icon-comments {
+margin-right: 5px;
+font-size: 9px;
+position: relative;
+top: 1px;
+}

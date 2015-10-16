@@ -1,0 +1,3161 @@
+# Copyright (C) 2015 rtCamp
+# This file is distributed under the same license as the rtMedia for WordPress, BuddyPress and bbPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: rtMedia for WordPress, BuddyPress and bbPress 3.8.12\n"
+"Report-Msgid-Bugs-To: http://community.rtcamp.com/c/rtmedia/\n"
+"POT-Creation-Date: 2015-08-05 15:05+0530\n"
+"PO-Revision-Date: 2015-08-30 21:37+1000\n"
+"Last-Translator: rtMedia <rtmedia@rtcamp.com>\n"
+"Language-Team: rtMedia <rtmedia@rtcamp.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:1146
+msgid "single media"
+msgstr "单媒体"
+
+#: ../app/main/controllers/upload/RTMediaUploadEndpoint.php:99
+#: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:339
+#: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:341
+#, php-format
+msgid "%s added %d %s"
+msgstr "%s添加了%d个%s"
+
+#: ../app/main/controllers/upload/RTMediaUploadView.php:67
+msgid "Privacy: "
+msgstr "隐私："
+
+#: ../app/main/controllers/upload/RTMediaUploadView.php:74
+#: ../app/main/controllers/upload/RTMediaUploadView.php:108
+#: ../app/main/controllers/upload/RTMediaUploadView.php:125
+msgid "File Upload"
+msgstr "文件上传"
+
+#: ../app/main/controllers/upload/RTMediaUploadView.php:78
+msgid "Select your files"
+msgstr "选择您的文件"
+
+#: ../app/main/controllers/upload/RTMediaUploadView.php:79
+msgid "or"
+msgstr "或"
+
+#: ../app/main/controllers/upload/RTMediaUploadView.php:79
+msgid "Drop your files here"
+msgstr "拖放您的文件到这"
+
+#: ../app/main/controllers/upload/RTMediaUploadView.php:116
+msgid "Start upload"
+msgstr "开始上传"
+
+#: ../app/main/controllers/upload/RTMediaUploadView.php:132
+msgid "Attach Media"
+msgstr "添附媒体"
+
+#: ../app/main/controllers/upload/RTMediaUploadView.php:147
+msgid "Insert from URL"
+msgstr "通过网页地址插入"
+
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:59
+msgid "Error Uploading File"
+msgstr "上传文件时出错"
+
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:213
+msgid "MP4 file you have uploaded is corrupt."
+msgstr "您上传的MP4文件无效"
+
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:220
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:225
+msgid ""
+"The MP4 file you have uploaded is using an unsupported video codec. "
+"Supported video codec is H.264."
+msgstr "您上传的MP4文件使用的是不支持的视频编码。支持的视频编码是H.264。"
+
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:230
+msgid "The MP4 file you have uploaded is not a video file."
+msgstr "您上传的MP4文件不是一个视频文件。"
+
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:243
+msgid "MP3 file you have uploaded is currupt."
+msgstr "您上传的MP3文件无效"
+
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:250
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:255
+msgid ""
+"The MP3 file you have uploaded is using an unsupported audio format. "
+"Supported audio format is MP3."
+msgstr "您上传的MP3文件使用的是不支持的音频编码。支持的音频编码是MP3。"
+
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:260
+msgid "The MP3 file you have uploaded is not an audio file."
+msgstr "您上传的MP3文件不是一个音频文件。"
+
+#: ../app/main/controllers/upload/processors/RTMediaUploadFile.php:268
+msgid ""
+"Media File you have tried to upload is not supported. Supported media files "
+"are .jpg, .png, .gif, .mp3, .mov and .mp4."
+msgstr ""
+"您要上传的媒体文件格式不支持。支持的媒体文件格式为 .jpg，.png，.gif，.mp3，."
+"mov and .mp4。"
+
+#: ../app/main/controllers/privacy/RTMediaPrivacy.php:268
+msgid "Default Privacy"
+msgstr "默认隐私"
+
+#: ../app/main/controllers/privacy/RTMediaPrivacy.php:284
+#: ../app/admin/RTMediaAdmin.php:1530
+msgid "Privacy"
+msgstr "隐私"
+
+#: ../app/main/controllers/shortcodes/RTMediaUploadShortcode.php:91
+msgid "The web browser on your device cannot be used to upload files."
+msgstr "您设备上的浏览器无法上传这些文件。"
+
+#: ../app/main/controllers/shortcodes/RTMediaUploadShortcode.php:103
+#: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:197
+#: ../app/main/controllers/template/rt-template-functions.php:1500
+msgid "You are not allowed to upload/attach media."
+msgstr "您没有权限上传/添附媒体文件。"
+
+#: ../app/main/controllers/shortcodes/RTMediaGalleryShortcode.php:182
+msgid "You do not have sufficient privileges to view this gallery"
+msgstr "您没有足够的权限查看该相册"
+
+#: ../app/main/controllers/media/RTMediaFeatured.php:25
+#: ../app/main/controllers/media/RTMediaGroupFeatured.php:17
+msgid "Set as Featured"
+msgstr "设为特色"
+
+#: ../app/main/controllers/media/RTMediaFeatured.php:27
+#: ../app/main/controllers/media/RTMediaGroupFeatured.php:19
+msgid "Unset Featured"
+msgstr "取消特色"
+
+#: ../app/main/controllers/media/RTMediaFeatured.php:182
+#: ../app/main/controllers/media/RTMediaGroupFeatured.php:194
+msgid "Media type is not allowed"
+msgstr "媒体文件类型不允许使用"
+
+#: ../app/main/controllers/media/RTMediaGalleryItemAction.php:55
+#: ../app/main/controllers/media/RTMediaGalleryItemAction.php:70
+msgid "Edit this media"
+msgstr "编辑该媒体"
+
+#: ../app/main/controllers/media/RTMediaGalleryItemAction.php:58
+#: ../app/main/controllers/media/RTMediaGalleryItemAction.php:70
+msgid "Delete this media"
+msgstr "删除媒体文件"
+
+#: ../app/main/controllers/media/RTMediaLoginPopup.php:38
+#: ../app/main/controllers/template/rt-template-functions.php:2155
+#: ../app/main/controllers/template/rt-template-functions.php:2159
+msgid "Upload Media"
+msgstr "上传媒体文件"
+
+#: ../app/main/controllers/media/RTMediaLoginPopup.php:47
+msgid "Please login"
+msgstr "请登录"
+
+#: ../app/main/controllers/media/RTMediaLoginPopup.php:49
+msgid "You need to be logged in to upload Media or to create Album."
+msgstr "您需要登录才能上传媒体文件或新建相册"
+
+#: ../app/main/controllers/media/RTMediaLoginPopup.php:52
+msgid "Click "
+msgstr "点击"
+
+#: ../app/main/controllers/media/RTMediaLoginPopup.php:52
+msgid "Login"
+msgstr "登录"
+
+#: ../app/main/controllers/media/RTMediaLoginPopup.php:52
+msgid "HERE"
+msgstr "这里"
+
+#: ../app/main/controllers/media/RTMediaLoginPopup.php:52
+msgid " to login."
+msgstr "登录。"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:35
+msgctxt "Status General Name"
+msgid "hidden"
+msgstr "隐藏"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:35
+#, php-format
+msgid "Hidden (%s)"
+msgid_plural "Hidden (%s)"
+msgstr[0] "隐藏 (%s)"
+msgstr[1] "隐藏 (%s)"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:50
+msgid "Create"
+msgstr "新建"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:51
+#: ../app/main/controllers/template/rt-template-functions.php:1781
+msgid "Create Album"
+msgstr "新建相册"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:52
+#: ../app/main/controllers/template/rt-template-functions.php:1861
+msgid "Edit Album"
+msgstr "编辑相册"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:53
+msgid "New Album"
+msgstr "新相册"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:54
+msgid "All Albums"
+msgstr "所有相册"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:55
+msgid "View Album"
+msgstr "查看相册"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:56
+msgid "Search Albums"
+msgstr "搜索相册"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:57
+msgid "No album found"
+msgstr "没有找到相册"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:58
+msgid "No album found in Trash"
+msgstr "没有在垃圾箱里找到相册"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:59
+msgid "Parent"
+msgstr "上级相册"
+
+#: ../app/main/controllers/media/RTMediaAlbum.php:145
+msgid "Untitled Album"
+msgstr "未命名相册"
+
+#: ../app/main/controllers/media/RTMediaMedia.php:483
+msgid "Error creating attachment for the media file, please try again"
+msgstr "新建附件错误，请再尝试"
+
+#: ../app/main/controllers/media/RTMediaMedia.php:585
+#, php-format
+msgid "%1$s added a %2$s"
+msgstr "%1$s添加了一个%2$s"
+
+#: ../app/main/controllers/media/RTMediaMedia.php:585
+#, php-format
+msgid "%1$s added %4$d %3$s"
+msgstr "%1$s添加了%4$d个%3$s"
+
+#: ../app/main/controllers/media/RTMediaLike.php:18
+msgid "Like"
+msgstr "赞"
+
+#: ../app/main/controllers/media/RTMediaLike.php:19
+#: ../app/admin/RTMediaAdmin.php:587
+msgid "Likes"
+msgstr "赞"
+
+#: ../app/main/controllers/media/RTMediaLike.php:20
+msgid "Unlike"
+msgstr "取消赞"
+
+#: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:180
+msgid "Media Files"
+msgstr "媒体文件"
+
+#: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:326
+#: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:341
+msgid "media"
+msgstr "媒体"
+
+#: ../app/main/controllers/activity/RTMediaBuddyPressActivity.php:333
+#, php-format
+msgid "%s added a %s"
+msgstr "%s增加了一个%s"
+
+#: ../app/main/controllers/template/RTMediaTemplate.php:97
+#: ../app/main/controllers/template/RTMediaTemplate.php:149
+msgid "Invalid attribute passed for rtmedia_gallery shortcode."
+msgstr "rtmedia_gallery便捷代码参数无效"
+
+#: ../app/main/controllers/template/RTMediaTemplate.php:314
+#: ../app/main/controllers/template/RTMediaTemplate.php:388
+#: ../app/main/controllers/template/RTMediaTemplate.php:477
+#: ../app/main/controllers/template/RTMediaTemplate.php:603
+msgid "Ooops !!! Invalid access. No nonce was found !!"
+msgstr "阿呀呀呀！！！访问无效。没有找到使用随机数(Nonce)！！"
+
+#: ../app/main/controllers/template/RTMediaTemplate.php:321
+msgid "Media updated Sucessfully"
+msgstr "媒体文件上传成功"
+
+#: ../app/main/controllers/template/RTMediaTemplate.php:327
+msgid "Error in updating Media"
+msgstr "更新媒体文件时出错"
+
+#: ../app/main/controllers/template/RTMediaNav.php:32
+msgctxt "My Account Privacy sub nav"
+msgid "Privacy"
+msgstr "隐私"
+
+#: ../app/main/controllers/template/rt-template-functions.php:706
+#: ../app/main/controllers/template/rt-template-functions.php:1692
+msgid "Options"
+msgstr "选项"
+
+#: ../app/main/controllers/template/rt-template-functions.php:795
+msgid "There are no comments on this media yet."
+msgstr "该媒体还没有任何评论。"
+
+#: ../app/main/controllers/template/rt-template-functions.php:831
+msgid "Delete Comment"
+msgstr "删除评论"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1027
+msgid "Go to page no : "
+msgstr "跳转到页数："
+
+#: ../app/main/controllers/template/rt-template-functions.php:1032
+msgid "Go"
+msgstr "跳转"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1205
+msgid "Video Thumbnail"
+msgstr "视频缩略图"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1254
+msgid "Video Thumbnail:"
+msgstr "视频缩略图："
+
+#: ../app/main/controllers/template/rt-template-functions.php:1337
+msgid "Image"
+msgstr "图像"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1354
+msgid "Modify Image"
+msgstr "修改图像"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1429
+msgid "Type Comment..."
+msgstr "输入评论..."
+
+#: ../app/main/controllers/template/rt-template-functions.php:1466
+#: ../app/main/controllers/template/rt-template-functions.php:1473
+msgid "Delete Media"
+msgstr "删除媒体"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1634
+msgid "Profile Albums"
+msgstr "个人相册"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1637
+#: ../app/main/controllers/template/rt-template-functions.php:1671
+msgid "Group Albums"
+msgstr "群相册"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1755
+msgid "Create New Album"
+msgstr "新建相册"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1755
+msgid "Add Album"
+msgstr "新增相册"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1771
+msgid "Create an Album"
+msgstr "新建一个相册"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1773
+msgid "Album Title : "
+msgstr "相册标题："
+
+#: ../app/main/controllers/template/rt-template-functions.php:1812
+#: ../app/main/controllers/template/rt-template-functions.php:1819
+#: ../app/main/controllers/template/rt-template-functions.php:1871
+msgid "Merge Album"
+msgstr "合并相册"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1815
+msgid "Select Album to merge with : "
+msgstr "选择要合并的相册："
+
+#: ../app/main/controllers/template/rt-template-functions.php:1862
+msgid "Delete Album"
+msgstr "删除相册"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1899
+msgid "Merge"
+msgstr "合并"
+
+#: ../app/main/controllers/template/rt-template-functions.php:1952
+msgid "Privacy : "
+msgstr "隐私："
+
+#: ../app/main/controllers/template/rt-template-functions.php:2143
+msgid "people like this"
+msgstr "人喜欢"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2216
+msgid "Empowering your community with "
+msgstr "丰富您的社区网络，请使用"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2218
+msgid "The only complete media solution for WordPress, BuddyPress and bbPress"
+msgstr "Wordpress、Bubbypress和bbpress唯一完备的媒体解决方案"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2233
+msgid "Close (Esc)"
+msgstr "关闭（Esc）"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2247
+msgid "Public"
+msgstr "公开"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2251
+msgid "All members"
+msgstr "所有会员"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2255
+msgid "Your friends"
+msgstr "朋友"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2259
+msgid "Only you"
+msgstr "仅自己"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2263
+msgid "Blocked temporarily"
+msgstr "暂时屏蔽"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2300
+#, php-format
+msgid "%s ago "
+msgstr "%s前"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2313
+#, php-format
+msgid "1 second"
+msgid_plural "%s seconds"
+msgstr[0] "1秒"
+msgstr[1] "%s秒"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2316
+#, php-format
+msgid "1 minute"
+msgid_plural "%s minutes"
+msgstr[0] "1分"
+msgstr[1] "%s分"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2319
+#, php-format
+msgid "1 hour"
+msgid_plural "%s hours"
+msgstr[0] "1小时"
+msgstr[1] "%s小时"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2674
+msgid "You can consider rtMedia Team for following :"
+msgstr "您可以按如下考虑rtMedia团队："
+
+#: ../app/main/controllers/template/rt-template-functions.php:2677
+msgid "rtMedia Customization ( in Upgrade Safe manner )"
+msgstr "rtMedia自定义化（升级无忧）"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2678
+msgid "WordPress/BuddyPress Theme Design and Development"
+msgstr "WordPress/BuddyPress主题设计与开发"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2679
+msgid "WordPress/BuddyPress Plugin Development"
+msgstr "WordPress/BuddyPress插件开发"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2683
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:30
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:92
+msgid "Album Creation Control"
+msgstr "相册新建控制"
+
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:31
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:93
+msgid "Who can create Albums in this group?"
+msgstr "谁可以在这个群新建相册"
+
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:35
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:97
+msgid "All Group Members"
+msgstr "所有群成员"
+
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:39
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:101
+msgid "Group Admins and Mods only"
+msgstr "仅群管理员和群主"
+
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:43
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:105
+msgid "Group Admin only"
+msgstr "仅群管理员"
+
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:142
+msgid "There was an error saving, please try again"
+msgstr "保存出错，请再尝试一次。"
+
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:144
+msgid "Settings saved successfully"
+msgstr "设置保存成功"
+
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:164
+msgid ""
+"You could display a small snippet of information from your group extension "
+"here. It will show on the group\n"
+"\t                home screen."
+msgstr ""
+"您可以在这显示一小段群附加信息. 它将会显示在群的\n"
+"\t                首页。"
+
+#: ../app/main/deprecated/RTMediaDeprecated.php:27
+#, php-format
+msgid "Deprecated %s. Please use %s."
+msgstr "%s已被弃用。请使用%s."
+
+#: ../app/admin/RTMediaFormHandler.php:65
+#: ../app/admin/RTMediaFormHandler.php:107
+#: ../app/admin/RTMediaFormHandler.php:202
+#: ../app/admin/RTMediaFormHandler.php:237
+msgid "Please provide a \"value\" in the argument."
+msgstr "请给参数设置一个“值”。"
+
+#: ../app/admin/RTMediaFormHandler.php:150
+msgid "Need to specify atleast two radios, else use a checkbox instead"
+msgstr "需要至少指定两个单选框，否则请使用复选框"
+
+#: ../app/admin/RTMediaFormHandler.php:286
+msgid "Pagination"
+msgstr "分页"
+
+#: ../app/admin/RTMediaFormHandler.php:298
+msgid "Allow user to comment on uploaded media"
+msgstr "允许用户评论上传的媒体"
+
+#: ../app/admin/RTMediaFormHandler.php:303
+msgid ""
+"This will display the comment form and comment listing on single media pages "
+"as well as inside lightbox (if lightbox is enabled)."
+msgstr ""
+"这将会在单媒体页面显示评论框已经评论列表，还有弹出窗口内（如果启用弹出窗口）"
+
+#: ../app/admin/RTMediaFormHandler.php:308
+msgid "Use lightbox to display media"
+msgstr "使用弹出窗口显示媒体"
+
+#: ../app/admin/RTMediaFormHandler.php:313
+msgid "View single media in facebook style lightbox."
+msgstr "用Facebook样式的弹出框显示单个媒体"
+
+#: ../app/admin/RTMediaFormHandler.php:318
+msgid "Number of media per page"
+msgstr "每页显示媒体文件数"
+
+#: ../app/admin/RTMediaFormHandler.php:324
+msgid "Number of media items you want to show per page on front end."
+msgstr "您想要在前台页面显示的媒体条目的数量"
+
+#: ../app/admin/RTMediaFormHandler.php:330
+msgid "Media display pagination option"
+msgstr "媒体显示分页选项"
+
+#: ../app/admin/RTMediaFormHandler.php:336
+msgid "Choose whether you want the load more button or pagination buttons."
+msgstr "选择您是想要显示“更多”按钮还是“分页”按钮"
+
+#: ../app/admin/RTMediaFormHandler.php:341
+msgid "Enable"
+msgstr "启用"
+
+#: ../app/admin/RTMediaFormHandler.php:341
+msgid "Cascading grid layout"
+msgstr "层叠网格布局"
+
+#: ../app/admin/RTMediaFormHandler.php:346
+msgid "If you enable masonry view, it is advisable to"
+msgstr "如果您要启用砌石式（masonry）视图，建议您"
+
+#: ../app/admin/RTMediaFormHandler.php:346
+msgid "for masonry view."
+msgstr "为砌石式（masonry）视图"
+
+#: ../app/admin/RTMediaFormHandler.php:350
+msgid "You might need to"
+msgstr "您或许需要"
+
+#: ../app/admin/RTMediaFormHandler.php:350
+msgid "change thumbnail size"
+msgstr "改变缩略图大小"
+
+#: ../app/admin/RTMediaFormHandler.php:350
+msgid "and uncheck the crop box for thumbnails."
+msgstr "并取消勾选缩略图裁剪框。"
+
+#: ../app/admin/RTMediaFormHandler.php:454
+msgid ""
+"You can refer to the API document from <a href=\"https://rtcamp.com/rtmedia/"
+"docs/developer/json-api/\">here</a>"
+msgstr ""
+"您可以点击<a href=\"https://rtcamp.com/rtmedia/docs/developer/json-api/\">这"
+"里</a>查看应用程序接口（API）文档"
+
+#: ../app/admin/RTMediaFormHandler.php:477
+msgid "Admin Settings"
+msgstr "管理员设置"
+
+#: ../app/admin/RTMediaFormHandler.php:478
+msgid "API Settings"
+msgstr "应用程序接口设置"
+
+#: ../app/admin/RTMediaFormHandler.php:479
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: ../app/admin/RTMediaFormHandler.php:480
+msgid "Footer Link"
+msgstr "页脚链接"
+
+#: ../app/admin/RTMediaFormHandler.php:563
+msgid "Media Types Settings"
+msgstr "媒体类型设置"
+
+#: ../app/admin/RTMediaFormHandler.php:571
+#: ../app/helper/RTMediaSettings.php:323
+msgid "Media Type"
+msgstr "媒体类型"
+
+#: ../app/admin/RTMediaFormHandler.php:576
+msgid "Allow Upload"
+msgstr "允许上传"
+
+#: ../app/admin/RTMediaFormHandler.php:578
+msgid "Allows you to upload a particular media type on your post."
+msgstr "允许您上传特定的媒体类型到您的文章。"
+
+#: ../app/admin/RTMediaFormHandler.php:586
+msgid "Set Featured"
+msgstr "设为特色"
+
+#: ../app/admin/RTMediaFormHandler.php:588
+msgid "Place a specific media as a featured content on the post."
+msgstr "置放一个指定的媒体作为文章中的特色内容"
+
+#: ../app/admin/RTMediaFormHandler.php:630
+msgid "File Extensions"
+msgstr "文件扩展"
+
+#: ../app/admin/RTMediaFormHandler.php:718
+msgid "Media Size Settings"
+msgstr "媒体大小设置"
+
+#: ../app/admin/RTMediaFormHandler.php:723
+msgid "Category"
+msgstr "分类"
+
+#: ../app/admin/RTMediaFormHandler.php:724
+msgid "Entity"
+msgstr "实体"
+
+#: ../app/admin/RTMediaFormHandler.php:725
+msgid "Width"
+msgstr "宽度"
+
+#: ../app/admin/RTMediaFormHandler.php:726
+msgid "Height"
+msgstr "高度"
+
+#: ../app/admin/RTMediaFormHandler.php:727
+msgid "Crop"
+msgstr "裁剪"
+
+#: ../app/admin/RTMediaFormHandler.php:780
+msgid "Number of thumbnails to generate on video upload"
+msgstr "生成上传视频缩略图的数量"
+
+#: ../app/admin/RTMediaFormHandler.php:786
+msgid ""
+" If you choose more than 1 thumbnail, your users will be able to change the "
+"thumbnail by going to video 'edit' section. Maximum value is 10."
+msgstr ""
+"如果您选择不止一个缩略图，那么您的用户将可以到视频编辑区变换缩略图。最大为10"
+"个。"
+
+#: ../app/admin/RTMediaFormHandler.php:794
+msgid "Encoding Settings"
+msgstr "编码设置"
+
+#: ../app/admin/RTMediaFormHandler.php:801
+msgid "JPEG/JPG image quality (1-100)"
+msgstr "JPEG/JPG图像质量 (1-100)"
+
+#: ../app/admin/RTMediaFormHandler.php:807
+msgid ""
+"Enter JPEG/JPG Image Quality. Minimum value is 1. 100 is original quality."
+msgstr "输入JPEG/JPG图像质量数值。最小值为1，100则为它的原始质量。"
+
+#: ../app/admin/RTMediaFormHandler.php:815
+msgid "Image Quality"
+msgstr "图像质量"
+
+#: ../app/admin/RTMediaFormHandler.php:837
+msgid "Custom CSS settings"
+msgstr "自定义CSS设置"
+
+#: ../app/admin/RTMediaFormHandler.php:856
+msgid "rtMedia default styles"
+msgstr "rtMedia默认样式"
+
+#: ../app/admin/RTMediaFormHandler.php:862
+msgid ""
+"Load default rtMedia styles. You need to write your own style for rtMedia if "
+"you disable it."
+msgstr "载入rtMedia默认样式。如果您禁用它，那么您就需要为rtMedia自己编写样式。"
+
+#: ../app/admin/RTMediaFormHandler.php:867
+msgid "Paste your CSS code"
+msgstr "粘帖您的CSS代码"
+
+#: ../app/admin/RTMediaFormHandler.php:873
+msgid "Custom rtMedia CSS container"
+msgstr "自定义rtMedia CSS容器"
+
+#: ../app/admin/RTMediaFormHandler.php:896
+msgid "Enable privacy"
+msgstr "启用隐私设置"
+
+#: ../app/admin/RTMediaFormHandler.php:902
+msgid "Enable privacy in rtMedia"
+msgstr "启用rtMedia的隐私设置"
+
+#: ../app/admin/RTMediaFormHandler.php:907
+msgid "Default privacy"
+msgstr "默认隐私设置"
+
+#: ../app/admin/RTMediaFormHandler.php:913
+msgid "Set default privacy for media"
+msgstr "修改媒体默认隐私设置"
+
+#: ../app/admin/RTMediaFormHandler.php:919
+msgid "Allow users to set privacy for their content"
+msgstr "允许用户自己修改内容隐私设置"
+
+#: ../app/admin/RTMediaFormHandler.php:924
+msgid ""
+"If you choose this, users will be able to change privacy of their own "
+"uploads."
+msgstr "如果您选择它，用户自己将能够改变上传内容的隐私设置"
+
+#: ../app/admin/RTMediaFormHandler.php:928
+msgid "For group uploads, BuddyPress groups privacy is used."
+msgstr "对于群的上传内容，会使用BuddyPress的群隐私设置"
+
+#: ../app/admin/RTMediaFormHandler.php:970
+msgid "Enable media in profile"
+msgstr "启用个人资料媒体"
+
+#: ../app/admin/RTMediaFormHandler.php:975
+msgid "Enable Media on BuddyPress Profile"
+msgstr "在BuddyPress个人资料中启用媒体"
+
+#: ../app/admin/RTMediaFormHandler.php:980
+msgid "Enable media in group"
+msgstr "启用群媒体"
+
+#: ../app/admin/RTMediaFormHandler.php:985
+msgid "Enable Media on BuddyPress Groups"
+msgstr "在BuddyPress群中启用媒体"
+
+#: ../app/admin/RTMediaFormHandler.php:990
+msgid "Allow upload from activity stream"
+msgstr "允许从用户动态中上传"
+
+#: ../app/admin/RTMediaFormHandler.php:995
+msgid "Allow upload using status update box present on activity stream page"
+msgstr "允许在用户动态页面上显示上传状态框"
+
+#: ../app/admin/RTMediaFormHandler.php:1001
+msgid "Number of media items to show in activity stream"
+msgstr "在用户动态页面中显示媒体条目的数量"
+
+#: ../app/admin/RTMediaFormHandler.php:1006
+msgid ""
+"With bulk uploads activity, the stream may get flooded. You can control the "
+"maximum number of media items or files per activity. This limit will not "
+"affect the actual number of uploads. This is only for display. <em>0</em> "
+"means unlimited."
+msgstr ""
+"使用批量上传方式，用户动态流页面可能会被刷屏。您可以控制每一个用户动态所显示"
+"的媒体条目或文件的最大数量。这个限制将不会影响实际的上传数量，只是用于显示。"
+"<em>0</em> 表示不限制。"
+
+#: ../app/admin/RTMediaFormHandler.php:1013
+msgid "Organize media into albums"
+msgstr "把媒体组织进相册"
+
+#: ../app/admin/RTMediaFormHandler.php:1019
+msgid ""
+"This will add 'album' tab to BuddyPress profile and group depending on the "
+"^above^ settings."
+msgstr "根据上面的设置，这将会在Buddypress的个人资料页面和群页面增加“相册”标签"
+
+#: ../app/admin/RTMediaAdmin.php:125
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr "显示“%s”"
+
+#: ../app/admin/RTMediaAdmin.php:125
+msgid "View"
+msgstr "显示"
+
+#: ../app/admin/RTMediaAdmin.php:367 ../app/admin/RTMediaAdmin.php:393
+msgid "rtMedia:"
+msgstr "rtMedia:"
+
+#: ../app/admin/RTMediaAdmin.php:367
+msgid " You must "
+msgstr "您必须"
+
+#: ../app/admin/RTMediaAdmin.php:367
+msgid "update permalink structure"
+msgstr "更新固定链接结构"
+
+#: ../app/admin/RTMediaAdmin.php:367
+msgid " to something other than the default for it to work."
+msgstr "成非默认的其他结构，这才可以生效。"
+
+#: ../app/admin/RTMediaAdmin.php:393
+msgid ""
+"Please update all premium add-ons that you have purchased from rtCamp from"
+msgstr "请更新所有来自rtCamp的高级扩展插件，购买于"
+
+#: ../app/admin/RTMediaAdmin.php:393
+msgid "your account"
+msgstr "您的帐号"
+
+#: ../app/admin/RTMediaAdmin.php:393
+msgid "Dismiss"
+msgstr "取消"
+
+#: ../app/admin/RTMediaAdmin.php:506
+msgid "rtMedia Pro is released"
+msgstr "rtMedia专业版已经发布"
+
+#: ../app/admin/RTMediaAdmin.php:527
+msgid "Media Stats"
+msgstr "媒体文件统计"
+
+#: ../app/admin/RTMediaAdmin.php:554
+msgid "Usage Stats"
+msgstr "使用量统计"
+
+# "total" here means how many users have been found in total
+#: ../app/admin/RTMediaAdmin.php:563
+msgid "Total "
+msgstr "个用户"
+
+# it is similar to total, it means how many users are using media among all users
+#: ../app/admin/RTMediaAdmin.php:571
+msgid "With Media"
+msgstr "人使用媒体"
+
+#: ../app/admin/RTMediaAdmin.php:579
+msgid "Comments "
+msgstr "评论"
+
+#: ../app/admin/RTMediaAdmin.php:598
+msgid "rtMedia Links:"
+msgstr "rtMedia链接："
+
+#: ../app/admin/RTMediaAdmin.php:599
+msgid "Homepage"
+msgstr "主页"
+
+#: ../app/admin/RTMediaAdmin.php:600
+msgid "Free Support"
+msgstr "免费技术支持"
+
+#: ../app/admin/RTMediaAdmin.php:601
+msgid "Premium Addons"
+msgstr "高级扩展插件"
+
+#: ../app/admin/RTMediaAdmin.php:617
+msgid "Right Now in rtMedia"
+msgstr "立即使用rtMedia"
+
+#: ../app/admin/RTMediaAdmin.php:671 ../app/admin/RTMediaAdmin.php:873
+msgid "Regenerate Thumbnail"
+msgstr "重新生成缩略图"
+
+#: ../app/admin/RTMediaAdmin.php:712 ../app/admin/RTMediaAdmin.php:1359
+#: ../app/admin/RTMediaAdmin.php:1360
+msgid "rtMedia"
+msgstr "rtMedia"
+
+#: ../app/admin/RTMediaAdmin.php:719 ../app/admin/RTMediaAdmin.php:722
+#: ../app/admin/RTMediaAdmin.php:861 ../app/admin/RTMediaAdmin.php:1389
+msgid "Settings"
+msgstr "设置"
+
+#: ../app/admin/RTMediaAdmin.php:730 ../app/admin/RTMediaAdmin.php:733
+#: ../app/admin/RTMediaAdmin.php:862 ../app/admin/RTMediaAdmin.php:1393
+msgid "Addons"
+msgstr "扩展插件"
+
+#: ../app/admin/RTMediaAdmin.php:741 ../app/admin/RTMediaAdmin.php:744
+#: ../app/admin/RTMediaAdmin.php:863 ../app/admin/RTMediaAdmin.php:1405
+#: ../app/helper/RTMediaSupport.php:51 ../app/helper/RTMediaSupport.php:52
+#: ../app/helper/RTMediaSettings.php:207
+msgid "Support"
+msgstr "技术支持"
+
+#: ../app/admin/RTMediaAdmin.php:752 ../app/admin/RTMediaAdmin.php:755
+#: ../app/admin/RTMediaAdmin.php:864 ../app/admin/RTMediaAdmin.php:1397
+msgid "Themes"
+msgstr "主题"
+
+#: ../app/admin/RTMediaAdmin.php:763 ../app/admin/RTMediaAdmin.php:766
+#: ../app/admin/RTMediaAdmin.php:865 ../app/admin/RTMediaAdmin.php:1401
+msgid "Hire Us"
+msgstr "雇用我们"
+
+#: ../app/admin/RTMediaAdmin.php:775 ../app/admin/RTMediaAdmin.php:778
+#: ../app/admin/RTMediaAdmin.php:867 ../app/admin/RTMediaAdmin.php:1413
+msgid "Licenses"
+msgstr "许可"
+
+#: ../app/admin/RTMediaAdmin.php:822
+msgid "ON"
+msgstr "打开"
+
+#: ../app/admin/RTMediaAdmin.php:823
+msgid "OFF"
+msgstr "关闭"
+
+#: ../app/admin/RTMediaAdmin.php:829
+msgid "Please do not refresh this page."
+msgstr "请不要刷新页面"
+
+#: ../app/admin/RTMediaAdmin.php:830
+msgid ""
+"Something went wrong. Please <a href onclick=\"location.reload();\">refresh</"
+"a> page."
+msgstr "出现错误。请<a href onclick=\"location.reload();\">刷新</a> 页面。"
+
+#: ../app/admin/RTMediaAdmin.php:831
+msgid "This will subscribe you to the free plan."
+msgstr "这将会为您订阅免费套餐"
+
+#: ../app/admin/RTMediaAdmin.php:832
+msgid "Are you sure you want to disable the encoding service?"
+msgstr "您确定要禁用编码服务吗？"
+
+#: ../app/admin/RTMediaAdmin.php:833
+msgid "Are you sure you want to enable the encoding service?"
+msgstr "您确定要启用编码服务吗？"
+
+#: ../app/admin/RTMediaAdmin.php:873
+msgid "Regen. Thumbnail "
+msgstr "重新生成缩略图"
+
+#: ../app/admin/RTMediaAdmin.php:891 ../app/admin/RTMediaAdmin.php:1870
+msgid "Regenerate Video Thumbnails"
+msgstr "重新生成视频缩略图"
+
+#: ../app/admin/RTMediaAdmin.php:909
+msgid "Regenerate Pending Thumbnails"
+msgstr "重新生成等待缩略图"
+
+#: ../app/admin/RTMediaAdmin.php:919
+msgid "Total Videos"
+msgstr "视频总数"
+
+#: ../app/admin/RTMediaAdmin.php:922
+msgid "Sent of regenerate thumbails"
+msgstr "重新生成的缩略图已发送"
+
+#: ../app/admin/RTMediaAdmin.php:924
+msgid "Fail to regenerate thumbails"
+msgstr "重新生成缩略图失败"
+
+#: ../app/admin/RTMediaAdmin.php:963
+msgid "Regenerate Video Thumbnails Done"
+msgstr "重新生成视频缩略图完成"
+
+#: ../app/admin/RTMediaAdmin.php:1007
+#, php-format
+msgid ""
+"You have %s videos without thumbnails. Click <a href='%s'> here </a> to "
+"generate thumbnails. <a href='#' onclick='rtmedia_hide_video_thumb_notice()' "
+"style='float:right'>Hide</a>"
+msgstr ""
+"您有%s个视频没有缩略图。点击<a href='%s'> 这里 </a>生成缩略图。<a href='#' "
+"onclick='rtmedia_hide_video_thumb_notice()' style='float:right'>隐藏</a>"
+
+#: ../app/admin/RTMediaAdmin.php:1085
+msgid "not a video ..."
+msgstr "不是视频 ..."
+
+#: ../app/admin/RTMediaAdmin.php:1250
+msgid "Empowering The Web With WordPress"
+msgstr "用Wordpress增强网站"
+
+#: ../app/admin/RTMediaAdmin.php:1270
+msgid "Settings saved successfully!"
+msgstr "设置保存成功"
+
+#: ../app/admin/RTMediaAdmin.php:1273 ../app/admin/RTMediaAdmin.php:1296
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: ../app/admin/RTMediaAdmin.php:1495 ../app/admin/RTMediaAdmin.php:1496
+msgid "Display"
+msgstr "显示"
+
+#: ../app/admin/RTMediaAdmin.php:1504
+msgid "rtMedia BuddyPress"
+msgstr "rtMedia BuddyPress"
+
+#: ../app/admin/RTMediaAdmin.php:1505
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: ../app/admin/RTMediaAdmin.php:1513
+msgid "rtMedia Types"
+msgstr "rtMedia类型"
+
+#: ../app/admin/RTMediaAdmin.php:1514
+msgid "Types"
+msgstr "类型"
+
+#: ../app/admin/RTMediaAdmin.php:1521
+msgid "rtMedia Sizes"
+msgstr "rtMedia大小"
+
+#: ../app/admin/RTMediaAdmin.php:1522
+msgid "Media Sizes"
+msgstr "媒体大小"
+
+#: ../app/admin/RTMediaAdmin.php:1529
+msgid "rtMedia Privacy"
+msgstr "rtMedia隐私设置"
+
+#: ../app/admin/RTMediaAdmin.php:1536
+msgid "rtMedia Custom CSS"
+msgstr "rtMedia 自定义CSS"
+
+#: ../app/admin/RTMediaAdmin.php:1537
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: ../app/admin/RTMediaAdmin.php:1546 ../app/admin/RTMediaAdmin.php:1547
+msgid "Other Settings"
+msgstr "其他设置"
+
+#: ../app/admin/RTMediaAdmin.php:1642
+#, php-format
+msgid "I use @buddypressmedia http://rt.cx/rtmedia on %s"
+msgstr "我在%s上使用@buddypressmedia http://rt.cx/rtmedia"
+
+#: ../app/admin/RTMediaAdmin.php:1644
+msgid "Post to Twitter Now"
+msgstr "马上在Twitter上发布"
+
+#: ../app/admin/RTMediaAdmin.php:1644
+msgid "Post to Twitter"
+msgstr "发布到Twitter"
+
+#: ../app/admin/RTMediaAdmin.php:1645
+msgid "Share on Facebook Now"
+msgstr "马上分享到Facebook"
+
+#: ../app/admin/RTMediaAdmin.php:1645
+msgid "Share on Facebook"
+msgstr "分享到Facebook"
+
+#: ../app/admin/RTMediaAdmin.php:1646
+msgid "Rate rtMedia on Wordpress.org"
+msgstr "在Wordpress.org上给rtMedia评级"
+
+#: ../app/admin/RTMediaAdmin.php:1646
+msgid "Rate on Wordpress.org"
+msgstr "在Wordpress.org上评级"
+
+#: ../app/admin/RTMediaAdmin.php:1647
+msgid "Subscribe to our Feeds"
+msgstr "订阅我们"
+
+#: ../app/admin/RTMediaAdmin.php:1650
+msgid "Spread the Word"
+msgstr "全球发布"
+
+#: ../app/admin/RTMediaAdmin.php:1656 ../app/admin/RTMediaAdmin.php:1663
+msgid "Subscribe"
+msgstr "订阅"
+
+#: ../app/admin/RTMediaAdmin.php:1685
+msgid "Thank you for your time."
+msgstr "谢谢您。"
+
+#: ../app/admin/RTMediaAdmin.php:1697
+msgid "Premium Add-ons"
+msgstr "高级扩展插件"
+
+#: ../app/admin/RTMediaAdmin.php:1713
+#, php-format
+msgid ""
+"You have images enabled on rtMedia but your network allowed filetypes do not "
+"permit uploading of %s. Click <a href=\"%s\">here</a> to change your "
+"settings manually."
+msgstr ""
+"您在rtMedia中启用了图像上传，但是您要上传的文件类型（%s）却不在网络所允许上传"
+"的文件类型之内。点击 <a href=\"%s\">这里</a>手动修改您的设置。"
+
+#: ../app/admin/RTMediaAdmin.php:1714 ../app/admin/RTMediaAdmin.php:1725
+#: ../app/admin/RTMediaAdmin.php:1734
+msgid "Recommended"
+msgstr "推荐"
+
+#: ../app/admin/RTMediaAdmin.php:1714 ../app/admin/RTMediaAdmin.php:1725
+#: ../app/admin/RTMediaAdmin.php:1734
+msgid "Update Network Settings Automatically"
+msgstr "自动更新网络设置"
+
+#: ../app/admin/RTMediaAdmin.php:1724
+#, php-format
+msgid ""
+"You have video enabled on BuddyPress Media but your network allowed "
+"filetypes do not permit uploading of mp4. Click <a href=\"%s\">here</a> to "
+"change your settings manually."
+msgstr ""
+"您在BuddyPress中启用了视频上传，但是您要上传的文件类型（MP4）却不在网络所允许"
+"上传的文件类型之内。点击 <a href=\"%s\">这里</a>手动修改您的设置。"
+
+#: ../app/admin/RTMediaAdmin.php:1733
+#, php-format
+msgid ""
+"You have audio enabled on BuddyPress Media but your network allowed "
+"filetypes do not permit uploading of mp3. Click <a href=\"%s\">here</a> to "
+"change your settings manually."
+msgstr ""
+"您在BuddyPress中启用了音频上传，但是您要上传的文件类型（MP3）却不在网络所允许"
+"上传的文件类型之内。点击 <a href=\"%s\">这里</a>手动修改您的设置。"
+
+#: ../app/admin/RTMediaAdmin.php:1748
+msgid "Network settings updated successfully."
+msgstr "网络设置已成功自动更新。"
+
+#: ../app/admin/RTMediaAdmin.php:1854
+msgid "Video is sent to generate thumbnails."
+msgstr "视频已发送去生成缩略图。"
+
+#: ../app/admin/RTMediaAdmin.php:1856
+msgid "Video cannot be sent to generate thumbnails."
+msgstr "视频无法发送去生成缩略图。"
+
+#: ../app/admin/RTMediaAdmin.php:1935
+msgid ""
+"Please update rtMedia template files if you have overridden the default "
+"rtMedia templates in your theme. If not, you can ignore and hide this notice."
+msgstr ""
+"如果您的主题已经重写了默认的rtMedia模板文件，请更新rtMedia模板文件。如果没"
+"有，您可以忽略并隐藏这则消息。"
+
+#: ../app/admin/RTMediaAdmin.php:1935
+#: ../app/importers/RTMediaMediaSizeImporter.php:66
+#: ../app/importers/RTMediaMigration.php:64
+msgid "Hide"
+msgstr "隐藏"
+
+#: ../app/helper/RTMediaSupport.php:58 ../app/helper/RTMediaSupport.php:59
+#: ../app/helper/RTMediaSupport.php:305 ../app/helper/RTMediaSupport.php:560
+msgid "Debug Info"
+msgstr "调试信息"
+
+#: ../app/helper/RTMediaSupport.php:66 ../app/helper/RTMediaSupport.php:67
+#: ../app/importers/RTMediaMigration.php:83
+msgid "Migration"
+msgstr "迁移"
+
+#: ../app/helper/RTMediaSupport.php:128
+msgid "Service"
+msgstr "服务"
+
+#: ../app/helper/RTMediaSupport.php:135
+msgid "Premium Support"
+msgstr "高级技术支持"
+
+#: ../app/helper/RTMediaSupport.php:141
+msgid "Bug Report"
+msgstr "缺陷报告"
+
+#: ../app/helper/RTMediaSupport.php:147
+msgid "New Feature"
+msgstr "新功能"
+
+#: ../app/helper/RTMediaSupport.php:149
+msgid "Submit"
+msgstr "提交"
+
+#: ../app/helper/RTMediaSupport.php:195
+msgid "by"
+msgstr "由"
+
+#: ../app/helper/RTMediaSupport.php:195
+msgid "version"
+msgstr "版本"
+
+#: ../app/helper/RTMediaSupport.php:357
+msgid "There is no media found to migrate."
+msgstr "没有媒体需要迁移"
+
+#: ../app/helper/RTMediaSupport.php:363
+msgid "Click"
+msgstr "点击"
+
+#: ../app/helper/RTMediaSupport.php:363
+msgid "here"
+msgstr "这里"
+
+#: ../app/helper/RTMediaSupport.php:363
+msgid "here to migrate media from rtMedia 2.x to rtMedia 3.0+."
+msgstr "把媒体插件从rtMedia 2.x 升级成rtMedia 3.0+。"
+
+#: ../app/helper/RTMediaSupport.php:392
+msgid "Submit a Bug Report"
+msgstr "提交缺陷报告"
+
+#: ../app/helper/RTMediaSupport.php:395
+msgid "Submit a New Feature Request"
+msgstr "提交新功能请求"
+
+#: ../app/helper/RTMediaSupport.php:398
+msgid "Submit Support Request"
+msgstr "提交技术支持请求"
+
+#: ../app/helper/RTMediaSupport.php:405
+msgid ""
+"If your site has some issues due to rtMedia and you want support, feel free "
+"to create a support topic on <a target=\"_blank\" href=\"http://community."
+"rtcamp.com/c/rtmedia/?"
+"utm_source=dashboard&utm_medium=plugin&utm_campaign=buddypress-media"
+"\">Community Forum</a>."
+msgstr ""
+"如果您的站点遇到由rtMedia引起的技术问题而且您想要得到技术上的支持, 请到<a "
+"target=\"_blank\" href=\"http://community.rtcamp.com/c/rtmedia/?"
+"utm_source=dashboard&utm_medium=plugin&utm_campaign=buddypress-media\">社区论"
+"坛</a>上新建一个技术支持帖子。"
+
+#: ../app/helper/RTMediaSupport.php:406
+msgid ""
+"If you have any suggestions, enhancements or bug reports, you can open a new "
+"issue on <a target=\"_blank\" href=\"https://github.com/rtCamp/buddypress-"
+"media/issues/new\">GitHub</a>."
+msgstr ""
+"如果您有任何建议、改进或者缺陷报告，您可以到<a target=\"_blank\" href="
+"\"https://github.com/rtCamp/buddypress-media/issues/new\">GitHub</a>上提交新"
+"问题。"
+
+#: ../app/helper/RTMediaSupport.php:415
+msgid "Name"
+msgstr "名字"
+
+#: ../app/helper/RTMediaSupport.php:420
+msgid "Use actual user name which used during purchased."
+msgstr "使用真实用户名，即在购买插件时使用的用户名。"
+
+#: ../app/helper/RTMediaSupport.php:426
+msgid "Email"
+msgstr "电子邮件"
+
+#: ../app/helper/RTMediaSupport.php:431
+msgid "Use email id which used during purchased"
+msgstr "使用购买插件时使用的电子邮件地址"
+
+#: ../app/helper/RTMediaSupport.php:437
+msgid "Website"
+msgstr "网站"
+
+#: ../app/helper/RTMediaSupport.php:442
+msgid "Subject"
+msgstr "标题"
+
+#: ../app/helper/RTMediaSupport.php:490
+msgid "rtMedia Premium Support Request from"
+msgstr "rtMedia高级技术支持请求表"
+
+#: ../app/helper/RTMediaSupport.php:493
+msgid "rtMedia New Feature Request from"
+msgstr "rtMedia新功能请求表"
+
+#: ../app/helper/RTMediaSupport.php:496
+msgid "rtMedia Bug Report from"
+msgstr "rtMedia缺陷报告表"
+
+#: ../app/helper/RTMediaSupport.php:499
+msgid "rtMedia Contact from"
+msgstr "rtMedia联系表"
+
+#: ../app/helper/RTMediaSupport.php:582
+msgid "Thank you for your Feedback/Suggestion."
+msgstr "感谢您的回馈/建议。"
+
+#: ../app/helper/RTMediaSupport.php:584
+msgid "Thank you for posting your support request."
+msgstr "谢谢您给我们发送技术支持请求。"
+
+#: ../app/helper/RTMediaSupport.php:585
+msgid "We will get back to you shortly."
+msgstr "我们会尽快给您回复。"
+
+#: ../app/helper/RTMediaSupport.php:590
+msgid "Your server failed to send an email."
+msgstr "邮件我发从您的服务器上发出。"
+
+#: ../app/helper/RTMediaSupport.php:591
+msgid "Kindly contact your server support to fix this."
+msgstr "联系您的服务器提供商以解决该问题。"
+
+#: ../app/helper/RTMediaSupport.php:592
+#, php-format
+msgid "You can alternatively create a support request <a href=\"%s\">here</a>"
+msgstr "您也可以在<a href=\"%s\">这里</a>新建技术请求"
+
+#: ../app/helper/RTMediaAddon.php:79 ../app/helper/RTMediaAddon.php:80
+msgid "Plugins"
+msgstr "插件"
+
+#: ../app/helper/RTMediaAddon.php:87 ../app/helper/RTMediaAddon.php:88
+msgid "Audio/Video  Encoding"
+msgstr "音频/视频编码"
+
+#: ../app/helper/RTMediaAddon.php:111
+msgid "Moderation"
+msgstr "审查"
+
+#: ../app/helper/RTMediaAddon.php:114
+msgid ""
+"Report media if they find offensive. Set number of reports to automatically "
+"take down media from site."
+msgstr "举报媒体，如果用户发现媒体违规。设置自动让媒体从站点下架的举报数量。"
+
+#: ../app/helper/RTMediaAddon.php:122
+msgid "Custom Attributes"
+msgstr "自定义属性"
+
+#: ../app/helper/RTMediaAddon.php:125
+msgid ""
+"Categories media based on attributes. Site owner need to create attributes. "
+"When user upload a media, can select in which attribute that media can add."
+msgstr ""
+"把媒体按属性分类。网站所有者需要新建这些属性。当用户上传媒体文件时，他们可以"
+"选择适合媒体的属性"
+
+#: ../app/helper/RTMediaAddon.php:133
+msgid "Docs and Other files"
+msgstr "文档和其他文件类型"
+
+#: ../app/helper/RTMediaAddon.php:136
+msgid ""
+"Allow users to upload documents and other file type using rtMedia upload "
+"box. This addon support all the file extensions which WordPress allows."
+msgstr ""
+"允许用户使用rtMedia上传框上传文档及其他类型的文件。这个扩展插件支持所有"
+"Worppress允许的文件类型。"
+
+#: ../app/helper/RTMediaAddon.php:144
+msgid "Default Albums"
+msgstr "默认相册"
+
+#: ../app/helper/RTMediaAddon.php:147
+msgid ""
+"This plugin allows the creation of multiple default albums for rtMedia "
+"uploads. One of these albums can be set as the default global album."
+msgstr ""
+"这个插件允许为rtMedia上传建立多个默认相册。可以把其中一个设置成全局默认相册。"
+
+#: ../app/helper/RTMediaAddon.php:155
+msgid "Podcast (RSS and Atom feeds)"
+msgstr "播客（ RSS和Atom供稿）"
+
+#: ../app/helper/RTMediaAddon.php:158
+msgid ""
+"Read rtMedia uploads from iTunes as well as any RSS feed-reader/podcasting "
+"software."
+msgstr ""
+"rtMedia除了从RSS供稿阅读器/播客软件中获取媒体外，还可以从iTunes中获取。"
+
+#: ../app/helper/RTMediaAddon.php:166
+msgid "Playlists"
+msgstr "播放列表"
+
+#: ../app/helper/RTMediaAddon.php:169
+msgid ""
+"Audio can be grouped into playlists. Once the user upload any audio file, "
+"can create a playlist or use existing one to manage audio files."
+msgstr ""
+"音频文件可以被归纳进播放列表。当用户上传音频文件时，他们可以新建或使用既存的"
+"播放列表管理这些音频文件。"
+
+#: ../app/helper/RTMediaAddon.php:177
+msgid "Favorites"
+msgstr "收藏"
+
+#: ../app/helper/RTMediaAddon.php:180
+msgid ""
+"Users can create their list of favorite media in which they can add media "
+"previously uploaded by any user."
+msgstr ""
+"用户可以给他们喜爱的媒体建立收藏列表，他们可以把之前由其他用户上传的媒体文件"
+"加入进来这个列表中。"
+
+#: ../app/helper/RTMediaAddon.php:188
+msgid "Restrictions"
+msgstr "限制"
+
+#: ../app/helper/RTMediaAddon.php:191
+msgid ""
+"Site admin can set an upload limit on the basis of time span, file size (MB) "
+"and number of files user can upload."
+msgstr ""
+"站点管理员可以设置基于时间跨度、文件大小（兆）以及用户允许上传的文件数量的上"
+"传限制。"
+
+#: ../app/helper/RTMediaAddon.php:199
+msgid "bbPress Attachments"
+msgstr "bbPress附件"
+
+#: ../app/helper/RTMediaAddon.php:202
+msgid "Attach media files to bbPress forum topics and replies."
+msgstr "给bbPress论坛的帖子和回复附加上媒体"
+
+#: ../app/helper/RTMediaAddon.php:210
+msgid "WordPress Sitewide Gallery"
+msgstr "WordPress全网相册"
+
+#: ../app/helper/RTMediaAddon.php:213
+msgid ""
+"Site admin can create and upload media into WordPress album. Create album "
+"without being dependent on BuddyPress."
+msgstr ""
+"站点管理员可以新建和上传媒体到Wordpress相册。相册建立无需依赖于BuddyPress。"
+
+#: ../app/helper/RTMediaAddon.php:221
+msgid "WordPress Comment Attachments"
+msgstr "WordPress评论附件"
+
+#: ../app/helper/RTMediaAddon.php:224
+msgid ""
+"Allow users to upload a media file in WordPress comment attachment box. It "
+"will display a thumbnail of attached file."
+msgstr ""
+"允许用户在WordPress的评论附件框中上传一个媒体文件。该文件将会以缩略图显示"
+
+#: ../app/helper/RTMediaAddon.php:232
+msgid "Social Sharing"
+msgstr "社交网络分享"
+
+#: ../app/helper/RTMediaAddon.php:235
+msgid ""
+"Share uploaded media on social network sites like Facebook, twitter, "
+"linkedin, Google +. This addon integrate with rtSocial plugin."
+msgstr ""
+"把上传的媒体文件分享到如Facebook、Twitter、LinkedIn 和Google+等社交网络。这个"
+"扩展插件与rtSocial插件集成。"
+
+#: ../app/helper/RTMediaAddon.php:243
+msgid "Sidebar Widgets"
+msgstr "边栏小工具"
+
+#: ../app/helper/RTMediaAddon.php:246
+msgid ""
+"This addon provide widgets to upload media and display gallery for rtMedia "
+"plugin."
+msgstr "这个扩展插件为rtMedia提供了一系列上传媒体和显示相册的小工具。"
+
+#: ../app/helper/RTMediaAddon.php:254
+msgid "5 Star Ratings"
+msgstr "5星评级"
+
+#: ../app/helper/RTMediaAddon.php:257
+msgid ""
+"Display 5 star rating for all the uploaded media. User can rate the media "
+"files from 1 to 5 star."
+msgstr "给所有上传的媒体显示5星评级。用户可以从1星到5星给媒体评级。"
+
+#: ../app/helper/RTMediaAddon.php:265
+msgid "Edit Mp3 Info (ID3 Tags)"
+msgstr "编辑MP3信息（ID3标签）"
+
+#: ../app/helper/RTMediaAddon.php:268
+msgid "Allow user to edit MP3 FIle Audio tags (ID 3 tags)."
+msgstr "允许用户编辑MP3音频标签（ID3 标签）"
+
+#: ../app/helper/RTMediaAddon.php:276
+msgid "Media Sorting"
+msgstr "媒体排序"
+
+#: ../app/helper/RTMediaAddon.php:279
+msgid ""
+"Sort uploaded media based on file size, ascending/descending title, upload "
+"date of media."
+msgstr "按照文件大小、升序/降序标题及媒体上传日期等排序媒体"
+
+#: ../app/helper/RTMediaAddon.php:287
+msgid "Bulk Edit"
+msgstr "批量编辑"
+
+#: ../app/helper/RTMediaAddon.php:290
+msgid ""
+"Bulk edit option will allow user to quickly select media files and do "
+"required actions like move files from one album to another, change "
+"attributes, change privacy, delete files."
+msgstr ""
+"批量编辑选项将允许用户快速地选择多个媒体文件并执行相应的操作，如把文件从一个"
+"相册移动到另一个、编辑属性、编辑隐私及删除文件等。"
+
+#: ../app/helper/RTMediaAddon.php:298
+msgid "BuddyPress Profile Picture"
+msgstr "BuddyPress头像"
+
+#: ../app/helper/RTMediaAddon.php:301
+msgid ""
+"User can easily set his/her profile picture from media uploaded via rtMedia."
+msgstr "用户可以轻松地把通过rtMedia上传的媒体设成他/她的头像。"
+
+#: ../app/helper/RTMediaAddon.php:309
+msgid "Album Cover Art"
+msgstr "相册艺术封面"
+
+#: ../app/helper/RTMediaAddon.php:312
+msgid "User can easily set any of the image of the album as album cover photo"
+msgstr "用户可以轻松的把相册中的任意图像设成相册封面"
+
+#: ../app/helper/RTMediaAddon.php:320
+msgid "Direct Download Link"
+msgstr "直接下载链接"
+
+#: ../app/helper/RTMediaAddon.php:323
+msgid ""
+"User can download media from website. Site owner can restrict which media "
+"type can be allowed to download."
+msgstr "用户可以从网站下载媒体文件。站点所有者可以限制哪些媒体类型允许被下载。"
+
+#: ../app/helper/RTMediaAddon.php:331
+msgid "Upload by URL"
+msgstr "通过网页地址上传"
+
+#: ../app/helper/RTMediaAddon.php:334
+msgid ""
+"Users do not need to download media files from a URL and then upload it with "
+"rtMedia. Just provide the absolute URL for the media and it will upload on "
+"site."
+msgstr ""
+"用户无需先从网址下载媒体文件然后再用rtMedia上传。只要给rtMedia提供绝对网址就"
+"可以直接上传。"
+
+#: ../app/helper/RTMediaAddon.php:342
+msgid "Media Likes"
+msgstr "媒体点赞"
+
+#: ../app/helper/RTMediaAddon.php:345
+msgid ""
+"This add-on let you know who liked the media. User can also see which media "
+"they liked under their profile."
+msgstr ""
+"这个扩展插件让您知道谁给这个媒体点了赞。用户也可以在他们的个人资料中看到他们"
+"点赞的媒体有哪些。"
+
+#: ../app/helper/RTMediaAddon.php:353
+msgid "Activity URL Preview"
+msgstr "用户动态网址预览"
+
+#: ../app/helper/RTMediaAddon.php:356
+msgid ""
+"This addon provides a preview of the URL that is shared in BuddyPress "
+"activity. Just enter the URL you want to share on your site and see a "
+"preview of it before it is shared."
+msgstr ""
+"这个扩展插件提供预览在BuddyPress用户动态中分享的网址。只要用户在输入他们想要"
+"分享的网址，他们就可以在分享之前先预览它。"
+
+#: ../app/helper/RTMediaAddon.php:364
+msgid "View Counter"
+msgstr "查看次数"
+
+#: ../app/helper/RTMediaAddon.php:367
+msgid ""
+"Enable view count for all the uploaded media. Whenever user open that media "
+"file in lightbox or in single media view, that view count will be calculated "
+"and display next to media file."
+msgstr ""
+"为所有上传的媒体启用查看次数。用户无论何时在弹出框或单媒体视图中打开媒体，这"
+"个查看次数都会被计算并且显示在媒体旁边。"
+
+#: ../app/helper/RTMediaAddon.php:375
+msgid "Shortcode Generator"
+msgstr "便捷代码生成器"
+
+#: ../app/helper/RTMediaAddon.php:378
+msgid ""
+"This add-on will add shortcode generator button in WordPress post and page "
+"editor for all the rtMedia shortcodes."
+msgstr ""
+"这个扩展插件将会在Worpress文章和页面编辑器中增加一个便捷代码生成器按钮，它囊"
+"括了所有rtMedia便捷代码。"
+
+#: ../app/helper/RTMediaAddon.php:386
+msgid "Album Privacy"
+msgstr "相册隐私"
+
+#: ../app/helper/RTMediaAddon.php:389
+msgid ""
+"Set album privacy when user create an album or change album privacy when "
+"editing existing albums. The privacy levels are Public, Logged in user, "
+"Friends and Private."
+msgstr ""
+"新建相册时设置相册隐私，或修改既存相册隐私设置。隐私级别分为公开、所有登录用"
+"户、朋友和自己。"
+
+#: ../app/helper/RTMediaAddon.php:397
+msgid "BuddyPress Group Media Control"
+msgstr "BuddyPress群媒体控制"
+
+#: ../app/helper/RTMediaAddon.php:400
+msgid ""
+"This add-on allows group owner to manage media upload feature group wise."
+msgstr "这个扩展插件允许群主管理群范围内的媒体上传功能"
+
+#: ../app/helper/RTMediaAddon.php:408
+msgid "Set Custom Thumbnail for Audio/Video"
+msgstr "给音频/视频设置自定义缩略图"
+
+#: ../app/helper/RTMediaAddon.php:411
+msgid ""
+"Allow media owner to change the thumbnail of uploaded audio/video files. The "
+"File Upload box will be provided to change media thumbnail."
+msgstr ""
+"允许媒体所有者改变上传的音频/视频文件的缩略图。文件上传框将会提供改变媒体缩略"
+"图功能。"
+
+#: ../app/helper/RTMediaAddon.php:419
+msgid "myCRED"
+msgstr "myCRED"
+
+#: ../app/helper/RTMediaAddon.php:422
+msgid ""
+"This plugin integrates rtMedia and myCRED plugin, users can be can award "
+"virtual points for various rtMedia activities, like media upload, likes, "
+"deleted etc."
+msgstr ""
+"这个扩展插件把myCRED集成进了rtMedia，可以给用户奖励虚拟点数以执行各种rtMedia"
+"操作，如上传媒体、点赞及删除等等。"
+
+#: ../app/helper/RTMediaAddon.php:430
+msgid "Upload terms"
+msgstr "上传协议"
+
+#: ../app/helper/RTMediaAddon.php:433
+msgid ""
+"User must have to check the terms and conditions checkbox before uploading "
+"the media."
+msgstr "在用户上传媒体之前必须勾选上传条件与条款。"
+
+#: ../app/helper/RTMediaAddon.php:441
+msgid "CubePoints"
+msgstr "CubePoints"
+
+#: ../app/helper/RTMediaAddon.php:444
+msgid ""
+"If you are using CubePoints plugin on your website than rtMedia CubePoint "
+"add-on can be integrate with that plugin to setup point management system "
+"for rtMedia related activities."
+msgstr ""
+"如果您正在使用CubePoints插件，那么rtMedia的这款扩展插件可以把rtMedia与这款插"
+"件集成在一起，以便为rtMedia相关的操作配置点数管理系统。"
+
+#: ../app/helper/RTMediaAddon.php:452
+msgid "Social Sync"
+msgstr "社交网络同步"
+
+#: ../app/helper/RTMediaAddon.php:455
+msgid ""
+"rtMedia Social Sync allows you to import media from your Facebook account."
+msgstr "rtMedia社交网络同步扩展插件允许您从您的Facebook帐号中导入媒体文件。"
+
+#: ../app/helper/RTMediaAddon.php:463
+msgid "Photo Watermark"
+msgstr "照片水印"
+
+#: ../app/helper/RTMediaAddon.php:466
+msgid ""
+"rtMedia Photo Watermark let you add watermark on your images uploaded using "
+"rtMedia."
+msgstr "rtMedia照片水印让您可以在您的图像文件上加如水印。"
+
+#: ../app/helper/RTMediaAddon.php:474
+msgid "Photo Tagging"
+msgstr "照片标签"
+
+#: ../app/helper/RTMediaAddon.php:477
+msgid ""
+"rtMedia Photo Tagging enable users to tag their friends on photos uploaded "
+"using rtMedia."
+msgstr "rtMedia的照片标签插件允许用户在照片上把他们的朋友给标记出来。"
+
+#: ../app/helper/RTMediaAddon.php:485
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../app/helper/RTMediaAddon.php:488
+msgid ""
+"rtMedia Instagram adds Instagram like filters to images uploaded with "
+"rtMedia."
+msgstr ""
+"rtMedia Instagram扩展插件把Instagram的媒体像媒体上传筛选器一样的加进来。"
+
+#: ../app/helper/RTMediaAddon.php:496
+msgid "Kaltura Add-on"
+msgstr "Kaltura扩展插件"
+
+#: ../app/helper/RTMediaAddon.php:499
+msgid ""
+"Add support for more video formats using Kaltura video solution. It works "
+"with Kaltura.com, self-hosted Kaltura-CE and Kaltura-on-premise."
+msgstr ""
+"增加支持使用Kaltura视频编码的更多视频格式。支持Kaltura.com、运行在自主架设服"
+"务器上的Kaltura-CE以及Kaltura-on-premise。"
+
+#: ../app/helper/RTMediaAddon.php:507
+msgid "FFMPEG Add-on"
+msgstr "FFMPEG扩展插件"
+
+#: ../app/helper/RTMediaAddon.php:510
+msgid ""
+"Add supports for more audio & video formats using open-source media-node. "
+"Media node comes with automated setup script for Ubuntu/Debian."
+msgstr ""
+"增加支持使用开源media-node编码的更多音频/视频格式。Media node自带有给Ubuntu/"
+"Debian的自动配置脚本。"
+
+#: ../app/helper/RTMediaAddon.php:518
+msgid "Membership Add-on"
+msgstr "会员扩展插件"
+
+#: ../app/helper/RTMediaAddon.php:521
+msgid ""
+"rtMedia Membership add-on provides membership functionality in your site in "
+"terms of media upload."
+msgstr "rtMedia会员扩展插件在媒体上传方面提供会员制功能。"
+
+#: ../app/helper/RTMediaAddon.php:561
+msgid "Coming Soon !!"
+msgstr "即将呈现！！"
+
+#: ../app/helper/RTMediaAddon.php:594
+msgid "Purchased"
+msgstr "已购插件"
+
+#: ../app/helper/RTMediaAddon.php:596 ../app/helper/RTMediaThemes.php:145
+#: ../app/helper/RTMediaThemes.php:173 ../app/helper/RTMediaThemes.php:260
+#: ../app/helper/RTMediaThemes.php:288
+#: ../app/importers/BPMediaAlbumimporter.php:178
+msgid "Buy Now"
+msgstr "立即购买"
+
+#: ../app/helper/RTMediaAddon.php:625 ../app/helper/RTMediaThemes.php:144
+#: ../app/helper/RTMediaThemes.php:172 ../app/helper/RTMediaThemes.php:259
+#: ../app/helper/RTMediaThemes.php:287
+#: ../app/importers/BPMediaAlbumimporter.php:179
+msgid "Live Demo"
+msgstr "即时演示"
+
+#: ../app/helper/rtFormInvalidArgumentsException.php:21
+#, php-format
+msgid ""
+"Error on line %s in %s : <b>The method expects an array in arguments for %s "
+"provided.</b>"
+msgstr ""
+"在第%s行第%s列出现错误：<b>对于所提供的%s，该函数的参数应是一个数组。</b>"
+
+#: ../app/helper/RTMediaAdminWidget.php:32
+msgid "Argument missing. id is required."
+msgstr "参数不足。id 是必要参数。"
+
+#: ../app/helper/RTMediaFeed.php:52
+msgid "No items"
+msgstr "没有供稿条目"
+
+#: ../app/helper/RTMediaFeed.php:58
+msgid "Posted "
+msgstr "发表于"
+
+#: ../app/helper/RTMediaUploadException.php:41
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr "上传的文件超过了HTML表中MAX_FILE_SIZE段所设置的最大文件大小。"
+
+#: ../app/helper/RTMediaUploadException.php:44
+msgid "No file was uploaded"
+msgstr "没有文件被上传。"
+
+#: ../app/helper/RTMediaUploadException.php:49
+msgid "Uploade failed due to internal server error."
+msgstr "服务器内部错误，上传失败。"
+
+#: ../app/helper/RTMediaUploadException.php:52
+msgid "File type not allowed."
+msgstr "文件类型不允许。"
+
+#: ../app/helper/RTMediaUploadException.php:56
+msgid "Invalid Context for upload."
+msgstr "上传无效。"
+
+#: ../app/helper/RTMediaUploadException.php:59
+msgid "Unknown file upload error."
+msgstr "未知文件上传错误。"
+
+#: ../app/helper/RTMediaSettings.php:205
+msgid "BuddyPress Media Addons for Photos"
+msgstr "BuddyPress照片媒体扩展插件"
+
+#: ../app/helper/RTMediaSettings.php:209
+msgid "rtMedia Themes"
+msgstr "rtMedia主题"
+
+#: ../app/helper/RTMediaSettings.php:282
+#, php-format
+msgid ""
+"Currently your network allows uploading of the following file types. You can "
+"change the settings <a href=\"%s\">here</a>.<br /><code>%s</code></span>"
+msgstr ""
+"目前您的网络站点允许上传如下类型的文件。您可以点击<a href=\"%s\">这里</a>改变"
+"这些设置.<br /><code>%s</code></span>"
+
+#: ../app/helper/RTMediaSettings.php:300 ../app/helper/RTMediaSettings.php:302
+msgid "Recounting of media files done successfully"
+msgstr "媒体文件重新计数完成"
+
+#: ../app/helper/RTMediaSettings.php:302
+msgid "Recount Success"
+msgstr "重计数量成功"
+
+#: ../app/helper/RTMediaSettings.php:306 ../app/helper/RTMediaSettings.php:308
+msgid "Recounting Failed"
+msgstr "重计数量失败"
+
+#: ../app/helper/RTMediaSettings.php:308
+msgid "Recount Fail"
+msgstr "重计数量失败"
+
+#: ../app/helper/RTMediaSettings.php:321 ../app/helper/RTMediaSettings.php:323
+msgid "Atleast one Media Type Must be selected"
+msgstr "必须至少选择一种媒体类型"
+
+#: ../app/helper/RTMediaSettings.php:332 ../app/helper/RTMediaSettings.php:334
+msgid "\"Number of media\" count value should be numeric and greater than 0."
+msgstr "“媒体数量”数值应为数字且大于0。"
+
+#: ../app/helper/RTMediaSettings.php:334
+msgid "Default Count"
+msgstr "默认数量"
+
+#: ../app/helper/RTMediaSettings.php:339
+msgid "Settings saved."
+msgstr "设置已保存"
+
+#: ../app/helper/RTMediaSettings.php:363
+#, php-format
+msgid ""
+"If you make changes to width, height or crop settings, you must use \"<a "
+"href=\"%s\">Regenerate Thumbnail Plugin</a>\" to regenerate old images.\""
+msgstr ""
+"如果您改变了宽度、高度或裁剪设置，您必须要使用“<a href=\"%s\">缩略图再生插件"
+"（Regenerate Thumbnail Plugin）</a>”重新生成旧图像的缩略图。"
+
+#: ../app/helper/RTMediaSettings.php:384
+msgid "BuddyPress Media 2.6 requires a database upgrade. "
+msgstr "BuddyPress Media  2.6 要求升级数据库。"
+
+#: ../app/helper/RTMediaSettings.php:384
+msgid "Update Database"
+msgstr "更新数据库"
+
+#: ../app/helper/RTMediaSettings.php:401
+msgid ""
+"If your site has some issues due to BuddyPress Media and you want one on one "
+"support then you can create a support topic on the <a target=\"_blank\" href="
+"\"http://community.rtcamp.com/c/rtmedia?"
+"utm_source=dashboard&utm_medium=plugin&utm_campaign=rtmedia\">rtCamp Support "
+"Forum</a>."
+msgstr ""
+"如果您遇到由BuddyPress Media引起的问题，并想要一对一的技术支持，那您可以在<a "
+"target=\"_blank\" href=\"http://community.rtcamp.com/c/rtmedia?"
+"utm_source=dashboard&utm_medium=plugin&utm_campaign=rtmedia\">rtCamp技术支持"
+"论坛</a>中新建一个技术支持帖子。"
+
+#: ../app/helper/RTMediaSettings.php:402
+msgid ""
+"If you have any suggestions, enhancements or bug reports, then you can open "
+"a new issue on <a target=\"_blank\" href=\"https://github.com/rtCamp/rtmedia/"
+"issues/new\">GitHub</a>."
+msgstr ""
+"如果您有任何的建议、改进或是缺陷报告，您可以在<a target=\"_blank\" href="
+"\"https://github.com/rtCamp/rtmedia/issues/new\">GitHub</a>上提交个新问题。"
+
+#: ../app/helper/RTMediaThemes.php:60 ../app/helper/RTMediaThemes.php:61
+msgid "Themes By rtCamp"
+msgstr "rtCamp制作的主题"
+
+#: ../app/helper/RTMediaThemes.php:67 ../app/helper/RTMediaThemes.php:68
+msgid "3rd Party Themes"
+msgstr "第三方主题"
+
+#: ../app/helper/RTMediaThemes.php:105
+msgid "rtDating"
+msgstr "rtDating"
+
+#: ../app/helper/RTMediaThemes.php:108 ../app/helper/RTMediaThemes.php:118
+msgid "rtCamp"
+msgstr "rtCamp"
+
+#: ../app/helper/RTMediaThemes.php:111
+msgid ""
+"rtDating is a unique, clean and modern theme only for WordPress. This theme "
+"is mostly useful for dating sites and community websites. It can also be use "
+"for any other WordPress based website."
+msgstr ""
+"rtDating is a unique, clean and modern theme only for WordPress. This theme "
+"is mostly useful for dating sites and community websites. It can also be use "
+"for any other WordPress based website."
+
+#: ../app/helper/RTMediaThemes.php:115
+msgid "InspireBook"
+msgstr "InspireBook"
+
+#: ../app/helper/RTMediaThemes.php:121
+msgid ""
+"InspireBook is a premium WordPress theme, designed especially for BuddyPress "
+"and rtMedia powered social-networks."
+msgstr ""
+"InspireBook is a premium WordPress theme, designed especially for BuddyPress "
+"and rtMedia powered social-networks."
+
+#: ../app/helper/RTMediaThemes.php:139 ../app/helper/RTMediaThemes.php:254
+msgid "Theme Details"
+msgstr "主题明细"
+
+#: ../app/helper/RTMediaThemes.php:151 ../app/helper/RTMediaThemes.php:266
+msgid "Show previous theme"
+msgstr "显示上一个主题"
+
+#: ../app/helper/RTMediaThemes.php:152 ../app/helper/RTMediaThemes.php:267
+msgid "Show next theme"
+msgstr "显示下一个主题"
+
+#: ../app/helper/RTMediaThemes.php:153 ../app/helper/RTMediaThemes.php:268
+msgid "Close overlay"
+msgstr "关闭层叠"
+
+#: ../app/helper/RTMediaThemes.php:166 ../app/helper/RTMediaThemes.php:281
+msgid "Read More"
+msgstr "更多"
+
+#: ../app/helper/RTMediaThemes.php:167 ../app/helper/RTMediaThemes.php:282
+msgid "Tags:"
+msgstr "标签："
+
+#: ../app/helper/RTMediaThemes.php:199
+msgid "(M) SOCIAL NETWORK BUDDYPRESS THEME"
+msgstr "(M) 社交网络BUDDYPRESS主题"
+
+#: ../app/helper/RTMediaThemes.php:202
+msgid "gavick"
+msgstr "gavick"
+
+#: ../app/helper/RTMediaThemes.php:205
+msgid ""
+"(M)Social is a sophisticated, vibrant community theme that offers incredible "
+"grid layouts, with full BuddyPress support so your users can interact with "
+"each other, create their own pages, and share their thoughts and images with "
+"the community. "
+msgstr ""
+"(M)Social is a sophisticated, vibrant community theme that offers incredible "
+"grid layouts, with full BuddyPress support so your users can interact with "
+"each other, create their own pages, and share their thoughts and images with "
+"the community. "
+
+#: ../app/helper/RTMediaThemes.php:209
+msgid "Klein"
+msgstr "Klein"
+
+#: ../app/helper/RTMediaThemes.php:212
+msgid "dunhakdis"
+msgstr "dunhakdis"
+
+#: ../app/helper/RTMediaThemes.php:215
+msgid ""
+"Klein is an innovative WordPress theme built to support BuddyPress, bbPress, "
+"and WooCommerce out of the box. Perfect for websites that interacts with "
+"many users."
+msgstr ""
+"Klein is an innovative WordPress theme built to support BuddyPress, bbPress, "
+"and WooCommerce out of the box. Perfect for websites that interacts with "
+"many users."
+
+#: ../app/helper/RTMediaThemes.php:219
+msgid "SweetDate"
+msgstr "SweetDate"
+
+#: ../app/helper/RTMediaThemes.php:222 ../app/helper/RTMediaThemes.php:232
+msgid "SeventhQueen"
+msgstr "SeventhQueen"
+
+#: ../app/helper/RTMediaThemes.php:225
+msgid ""
+"SweetDate is a unique, clean and modern Premium Wordpress theme. It is "
+"perfect for a dating or community website but can be used as well for any "
+"other domain. They added all the things you need to create a perfect "
+"community system."
+msgstr ""
+"SweetDate is a unique, clean and modern Premium Wordpress theme. It is "
+"perfect for a dating or community website but can be used as well for any "
+"other domain. They added all the things you need to create a perfect "
+"community system."
+
+#: ../app/helper/RTMediaThemes.php:229
+msgid "KLEO"
+msgstr "KLEO"
+
+#: ../app/helper/RTMediaThemes.php:235
+msgid ""
+"You no longer need to be a professional developer or designer to create an "
+"awesome website. Let your imagination run wild and create the site of your "
+"dreams. KLEO has all the tools to get you started."
+msgstr ""
+"You no longer need to be a professional developer or designer to create an "
+"awesome website. Let your imagination run wild and create the site of your "
+"dreams. KLEO has all the tools to get you started."
+
+#: ../app/helper/RTMediaThemes.php:298
+msgid ""
+"These are the third party themes. For any issues or queries regarding these "
+"themes please contact theme developers."
+msgstr "这些是第三方制作的主题。有任何相关的问题或咨询请联系主题制作方。"
+
+#: ../app/helper/RTMediaThemes.php:301
+msgid "Are you a developer?"
+msgstr "您是一位开发者吗？"
+
+#: ../app/helper/RTMediaThemes.php:304
+msgid ""
+"If you have developed a rtMedia compatible theme and would like it to list "
+"here, please email us at"
+msgstr ""
+"如果您已制作了一个和rtMedia兼容的主题并希望别显示在此列表中，请发邮件到"
+
+#: ../app/helper/RTMediaThemes.php:305
+msgid "product@rtcamp.com"
+msgstr "product@rtcamp.com"
+
+#: ../app/helper/RTMediaLicense.php:56
+msgid "Activated"
+msgstr "已激活"
+
+#: ../app/helper/RTMediaLicense.php:59
+msgid "Deactivated"
+msgstr "已停用"
+
+#: ../app/helper/RTMediaLicense.php:68
+msgid "Status: "
+msgstr "状态："
+
+#: ../app/helper/RTMediaLicense.php:77
+msgid "License Key"
+msgstr "许可密钥"
+
+#: ../app/helper/RTMediaLicense.php:88
+msgid "Activate / Deactivate License"
+msgstr "激活 / 停用 许可证"
+
+#: ../app/helper/RTMediaLicense.php:96
+msgid "Deactivate License"
+msgstr "停用许可证"
+
+#: ../app/helper/RTMediaLicense.php:99
+msgid "Activate License"
+msgstr "激活许可证"
+
+#: ../app/services/RTMediaEncoding.php:156
+msgid "rtMedia Encoding: Nearing quota limit."
+msgstr "rtMedia编码：接近配额限制。"
+
+#: ../app/services/RTMediaEncoding.php:157
+#, php-format
+msgid ""
+"<p>You are nearing the quota limit for your rtMedia encoding service.</"
+"p><p>Following are the details:</p><p><strong>Used:</strong> %s</"
+"p><p><strong>Remaining</strong>: %s</p><p><strong>Total:</strong> %s</p>"
+msgstr ""
+"<p>您即将要达到rtMedia 编码服务的配额限制了。</p><p>以下为详细资料：</"
+"p><p><strong>已用：</strong> %s</p><p><strong>剩余</strong>: %s</"
+"p><p><strong>总计：</strong> %s</p>"
+
+#: ../app/services/RTMediaEncoding.php:171
+msgid "rtMedia Encoding: Usage quota over."
+msgstr "rtMedia编码：使用量配额已用完。"
+
+#: ../app/services/RTMediaEncoding.php:172
+#, php-format
+msgid ""
+"<p>Your usage quota is over. Upgrade your plan</p><p>Following are the "
+"details:</p><p><strong>Used:</strong> %s</p><p><strong>Remaining</strong>: "
+"%s</p><p><strong>Total:</strong> %s</p>"
+msgstr ""
+"<p>您的使用量配额已经用完。升级您的套餐</p><p>以下为详细资料：</p><p><strong>"
+"已用：</strong> %s</p><p><strong>剩余</strong>: %s</p><p><strong>总计：</"
+"strong> %s</p>"
+
+#: ../app/services/RTMediaEncoding.php:233
+#, php-format
+msgid "You have successfully subscribed for the <strong>%s</strong> plan"
+msgstr "您已成功订阅了<strong>%s</strong>套餐"
+
+#: ../app/services/RTMediaEncoding.php:245
+msgid "Unsubscribe"
+msgstr "取消订阅"
+
+#: ../app/services/RTMediaEncoding.php:247
+msgid ""
+"Just to improve our service we would like to know the reason for you to "
+"leave us."
+msgstr "只是为了改进服务，我们希望了解您弃我们而去的理由。"
+
+#: ../app/services/RTMediaEncoding.php:296
+#: ../app/services/RTMediaEncoding.php:398
+msgid "Current Plan"
+msgstr "当前套餐"
+
+#: ../app/services/RTMediaEncoding.php:296
+msgid "Unsubscribed"
+msgstr "取消订阅"
+
+#: ../app/services/RTMediaEncoding.php:298
+msgid "Used"
+msgstr "已用"
+
+#: ../app/services/RTMediaEncoding.php:300
+msgid "Remaining"
+msgstr "剩余"
+
+#: ../app/services/RTMediaEncoding.php:302
+msgid "Total"
+msgstr "总计"
+
+#: ../app/services/RTMediaEncoding.php:306
+msgid "Your usage limit has been reached. Upgrade your plan."
+msgstr "您已达到了使用量限制。升级您的套餐。"
+
+#: ../app/services/RTMediaEncoding.php:308
+msgid "Your API key is not valid or is expired."
+msgstr "您的应用程序接口（API）密钥无效或已过期。"
+
+#: ../app/services/RTMediaEncoding.php:310
+msgid "Encoding Usage"
+msgstr "编码使用量"
+
+#: ../app/services/RTMediaEncoding.php:316
+msgid "Audio/Video encoding service"
+msgstr "音频/视频编码服务"
+
+#: ../app/services/RTMediaEncoding.php:318
+msgid "rtMedia team has started offering an audio/video encoding service."
+msgstr "rtMedia团队已开始提供音频/视频的编码服务。"
+
+#: ../app/services/RTMediaEncoding.php:321
+msgid "Enter API KEY"
+msgstr "输入应用程序接口（API）密钥"
+
+#: ../app/services/RTMediaEncoding.php:323
+msgid "Save Key"
+msgstr "保存密钥"
+
+#: ../app/services/RTMediaEncoding.php:344
+msgid "Feature\\Plan"
+msgstr "功能\\套餐"
+
+#: ../app/services/RTMediaEncoding.php:345
+#: ../app/services/RTMediaEncoding.php:388
+msgid "Free"
+msgstr "免费"
+
+#: ../app/services/RTMediaEncoding.php:346
+msgid "Silver"
+msgstr "银级"
+
+#: ../app/services/RTMediaEncoding.php:347
+msgid "Gold"
+msgstr "金级"
+
+#: ../app/services/RTMediaEncoding.php:348
+msgid "Platinum"
+msgstr "白金级"
+
+#: ../app/services/RTMediaEncoding.php:354
+msgid "File Size Limit"
+msgstr "文件大小限制"
+
+#: ../app/services/RTMediaEncoding.php:359
+msgid "Bandwidth (monthly)"
+msgstr "带宽（每月）"
+
+#: ../app/services/RTMediaEncoding.php:366
+msgid "Overage Bandwidth"
+msgstr "超量带宽"
+
+#: ../app/services/RTMediaEncoding.php:367
+#: ../app/services/RTMediaEncoding.php:374
+#: ../app/services/RTMediaEncoding.php:379
+msgid "Not Available"
+msgstr "不可用"
+
+#: ../app/services/RTMediaEncoding.php:373
+msgid "Amazon S3 Support"
+msgstr "支持Amazon S3"
+
+#: ../app/services/RTMediaEncoding.php:375
+#: ../app/services/RTMediaEncoding.php:380
+#: ../app/services/RTMediaEncoding.php:384
+msgid "Coming Soon"
+msgstr "即将呈现"
+
+#: ../app/services/RTMediaEncoding.php:378
+msgid "HD Profile"
+msgstr "高清资料"
+
+#: ../app/services/RTMediaEncoding.php:383
+msgid "Webcam Recording"
+msgstr "网页摄像头录制"
+
+#: ../app/services/RTMediaEncoding.php:387
+msgid "Pricing"
+msgstr "单价"
+
+#: ../app/services/RTMediaEncoding.php:389
+msgid "$9/month"
+msgstr "每月9美元"
+
+#: ../app/services/RTMediaEncoding.php:390
+msgid "$99/month"
+msgstr "每月99美元"
+
+#: ../app/services/RTMediaEncoding.php:391
+msgid "$999/month"
+msgstr "每月999美元"
+
+#: ../app/services/RTMediaEncoding.php:402
+msgid "Try Now"
+msgstr "立即试用"
+
+#: ../app/services/RTMediaEncoding.php:550
+msgid "Could not read file."
+msgstr "无法读取文件。"
+
+#: ../app/services/RTMediaEncoding.php:554
+msgid ""
+"Something went wrong. The required attachment id does not exists. It must "
+"have been deleted."
+msgstr "出现错误。需要的附件标识不存在，它一定是被删除了。"
+
+#: ../app/services/RTMediaEncoding.php:569
+msgid "rtMedia Encoding: Download Failed"
+msgstr "rtMedia编码：下载失败"
+
+#: ../app/services/RTMediaEncoding.php:570
+#, php-format
+msgid ""
+"<p><a href=\"%s\">Media</a> was successfully encoded but there was an error "
+"while downloading:</p>\n"
+"                        <p><code>%s</code></p>\n"
+"                        <p>You can <a href=\"%s\">retry the download</a>.</p>"
+msgstr ""
+"<p><a href=\"%s\">多媒体文件</a>编码成功，但下载时出现错误：</p>\n"
+"                        <p><code>%s</code></p>\n"
+"                        <p>您可以 <a href=\"%s\">重新尝试下载</a>.</p>"
+
+#: ../app/services/RTMediaEncoding.php:584
+msgid "Done"
+msgstr "完成"
+
+#: ../app/services/RTMediaEncoding.php:609
+#: ../app/services/RTMediaEncoding.php:631
+msgid "Something went wrong please try again."
+msgstr "发送错误，请再尝试一次。"
+
+#: ../app/services/RTMediaEncoding.php:628
+msgid "Your subscription was cancelled successfully"
+msgstr "您已成功取消订阅"
+
+#: ../app/services/RTMediaEncoding.php:640
+msgid "Please enter the api key."
+msgstr "请输入应用程序接口（API）密钥"
+
+#: ../app/services/RTMediaEncoding.php:647
+msgid "Encoding disabled successfully."
+msgstr "编码禁用成功。"
+
+#: ../app/services/RTMediaEncoding.php:653
+msgid "Encoding enabled successfully."
+msgstr "编码启用成功。"
+
+#: ../app/importers/BPMediaAlbumimporter.php:71
+msgid "Warning!"
+msgstr "警告！"
+
+#: ../app/importers/BPMediaAlbumimporter.php:71
+#, php-format
+msgid ""
+"This import process is irreversible. Although everything is tested, please "
+"take a <a target=\"_blank\" href=\"http://codex.wordpress.org/"
+"WordPress_Backups\">backup of your database and files</a>, before "
+"proceeding. If you don't know your way around databases and files, consider "
+"<a target=\"_blank\" href=\"%s\">hiring us</a>, or another professional."
+msgstr ""
+"该导入过程不可逆。虽然多经过测试，但请在继续执行之前，先<a target=\"_blank\" "
+"href=\"http://codex.wordpress.org/WordPress_Backups\">备份您的数据库及文件</"
+"a>。如果您不清楚该如何做，考虑一下<a target=\"_blank\" href=\"%s\">雇用我们</"
+"a>，或其他专业人士。"
+
+#: ../app/importers/BPMediaAlbumimporter.php:72
+msgid ""
+"If you have set \"WP_DEBUG\" in you wp-config.php file, please make sure it "
+"is set to \"false\", so that it doesn't conflict with the import process."
+msgstr ""
+"如果您在wp-config.php文件中修改了“WP_DEBUG”的值，请确保它被设成了“false”，这"
+"样就不会与导入过程有冲突。"
+
+#: ../app/importers/BPMediaAlbumimporter.php:73
+msgid "I have taken a backup of the database and files of this site."
+msgstr "我已备份了该站点的数据库及文件。"
+
+#: ../app/importers/BPMediaAlbumimporter.php:75
+msgid "Start Import"
+msgstr "开始导入"
+
+#: ../app/importers/BPMediaAlbumimporter.php:80
+msgid "Users"
+msgstr "用户"
+
+#: ../app/importers/BPMediaAlbumimporter.php:110
+msgid "Comments"
+msgstr "评论"
+
+#: ../app/importers/BPMediaAlbumimporter.php:116
+msgid "Comments: 0/0 (No comments to import)"
+msgstr "评论：0/0 （没有评论导入）"
+
+#: ../app/importers/BPMediaAlbumimporter.php:123
+msgid "User's Favorites"
+msgstr "用户收藏"
+
+#: ../app/importers/BPMediaAlbumimporter.php:132
+msgid ""
+"BP-Album is active on your site and will cause problems with the import."
+msgstr "BP-Album插件处在激活状态，它将会造成该导入出现问题。"
+
+#: ../app/importers/BPMediaAlbumimporter.php:133
+msgid "Click here to deactivate BP-Album and continue importing"
+msgstr "点击这里停用BP-Album插件然后继续导入"
+
+#: ../app/importers/BPMediaAlbumimporter.php:139
+msgid ""
+"Some of the media failed to import. The file might be corrupt or deleted."
+msgstr "部分媒体导入失败。文件可能损毁或已被删除。"
+
+#: ../app/importers/BPMediaAlbumimporter.php:140
+#, php-format
+msgid "The following %d BP Album Media id's could not be imported"
+msgstr "以下%d个BP Album插件的多媒体ID无法被导入"
+
+#: ../app/importers/BPMediaAlbumimporter.php:149
+#, php-format
+msgid "I just imported bp-album to @buddypressmedia http://rt.cx/rtmedia on %s"
+msgstr "我刚把bp-album导入到@buddypressmedia http://rt.cx/rtmedia on %s"
+
+#: ../app/importers/BPMediaAlbumimporter.php:150
+msgid "Congratulations!"
+msgstr "恭喜！"
+
+#: ../app/importers/BPMediaAlbumimporter.php:150
+msgid "All media from BP Album has been imported."
+msgstr "所有BP Album的多媒体文件都被成功导入。"
+
+# there is no such word in chinse,so it has to be praphrased.
+#: ../app/importers/BPMediaAlbumimporter.php:151
+msgid "Tweet this"
+msgstr "把这个发到Twitter"
+
+#: ../app/importers/BPMediaAlbumimporter.php:155
+msgid ""
+"However, a lot of unnecessary files and a database table are still eating up "
+"your resources. If everything seems fine, you can clean this data up."
+msgstr ""
+"然而，还有很多不需要的文件和数据库表仍然在消耗您的服务器资源。如果没有任何异"
+"常的话，您可以清除这些数据。"
+
+#: ../app/importers/BPMediaAlbumimporter.php:158
+msgid "Clean up Now"
+msgstr "立即清除"
+
+#: ../app/importers/BPMediaAlbumimporter.php:161
+msgid "Clean up Later"
+msgstr "稍候清除"
+
+#: ../app/importers/BPMediaAlbumimporter.php:166
+msgid "Why don't you try adding some instagram like effects to your images?"
+msgstr "为何不给您的图像增加一些类似instagram那样的图像效果呢？"
+
+#: ../app/importers/BPMediaAlbumimporter.php:173
+msgid ""
+"BuddyPress Media Instagram adds Instagram like filters to images uploaded "
+"with BuddyPress Media."
+msgstr ""
+"BuddyPress Media Instagram扩展插件从Instagram导入多媒体文件，就像筛选通过"
+"BuddyPress Media上传的图像一样。"
+
+#: ../app/importers/BPMediaAlbumimporter.php:174
+msgid "Important"
+msgstr "重要"
+
+#: ../app/importers/BPMediaAlbumimporter.php:174
+msgid ""
+"You need to have ImageMagick installed on your server for this addon to work."
+msgstr "您需要在服务器上安装ImageMagick来使这个插件正常工作。"
+
+#: ../app/importers/BPMediaAlbumimporter.php:184
+msgid ""
+"Looks like you don't use BP Album. Is there any other BuddyPress Plugin you "
+"want an importer for?"
+msgstr "看上去您没有使用Buddypress相册。还有其他您想导入的Buddypress插件吗？"
+
+#: ../app/importers/BPMediaAlbumimporter.php:185
+#, php-format
+msgid "<a href=\"%s\">Create an issue</a> on GitHub requesting the same."
+msgstr "在GitHub上<a href=\"%s\">提交个一样的问题</a>。"
+
+#: ../app/importers/RTMediaMediaSizeImporter.php:25
+msgid "Media Size Import"
+msgstr "多媒体文件导入大小"
+
+#: ../app/importers/RTMediaActivityUpgrade.php:20
+msgid "Media activity upgrade"
+msgstr "媒体动态升级"
+
+#: ../app/importers/RTMediaMigration.php:64
+msgid "Please Migrate your Database"
+msgstr "请迁移您的数据库"
+
+#: ../app/importers/RTMediaMigration.php:64
+msgid "Click Here"
+msgstr "点击这里"
+
+#: ../app/importers/RTMediaMigration.php:375
+msgid ""
+"Please Backup your <strong>DATABASE</strong> and <strong>UPLOAD</strong> "
+"folder before Migration."
+msgstr ""
+"在迁移之前，请备份您的<strong>数据库</strong>和<strong>存放上载文件</strong>"
+"的文件夹。"
+
+#: ../app/importers/RTMediaMigration.php:383
+msgid "rtMedia Migration"
+msgstr "rtMedia数据迁移"
+
+#: ../app/importers/RTMediaMigration.php:385
+msgid "It will migrate following things"
+msgstr "他将会迁移下列数据"
+
+#: ../app/importers/RTMediaMigration.php:453
+msgid "Error During Migration, Please Refresh Page then try again"
+msgstr "迁移数据时出现错误，请刷新页面然后再尝试"
+
+#: ../app/importers/RTMediaMigration.php:473
+msgid "Start"
+msgstr "开始"
+
+#: ../app/importers/RTMediaMigration.php:1024
+msgid " day"
+msgstr "天"
+
+#: ../app/importers/RTMediaMigration.php:1028
+msgid " hour"
+msgstr "小时"
+
+#: ../app/importers/RTMediaMigration.php:1032
+msgid " minute"
+msgstr "分"
+
+#: ../app/importers/RTMediaMigration.php:1036
+msgid " second"
+msgstr "秒"
+
+#: ../app/importers/RTMediaMigration.php:1042
+msgid "No time remaining."
+msgstr "时间耗尽。"
+
+#: ../templates/media/album-gallery.php:14
+msgid "Album List"
+msgstr "相册列表"
+
+#: ../templates/media/album-gallery.php:56
+#: ../templates/media/media-gallery.php:65
+#: ../app/admin/RTMediaFormHandler.php:285
+msgid "Load More"
+msgstr "加载更多"
+
+#: ../templates/media/album-gallery.php:64
+#: ../templates/media/media-single-edit.php:61
+#: ../templates/media/media-single.php:146
+msgid "Sorry !! There's no media found for the request !!"
+msgstr "对不起！！没有找到所需的媒体文件！！"
+
+#: ../templates/media/media-gallery.php:9
+#: ../templates/media/media-gallery.php:25
+msgid "Media Gallery"
+msgstr "媒体库"
+
+#: ../templates/media/media-gallery.php:73
+msgid "Oops !! There's no media found for the request !!"
+msgstr "抱歉！！没找到所需的媒体文件"
+
+#: ../templates/media/media-single-edit.php:8 ../app/main/RTMedia.php:915
+msgid "Edit Media"
+msgstr "编辑媒体"
+
+#: ../templates/media/media-single-edit.php:16
+#: ../templates/media/album-single-edit.php:16
+#: ../app/helper/RTMediaSupport.php:447
+msgid "Details"
+msgstr "明细"
+
+#: ../templates/media/media-single-edit.php:26
+#: ../templates/media/album-single-edit.php:35
+msgid "Title : "
+msgstr "标题："
+
+#: ../templates/media/media-single-edit.php:32
+#: ../templates/media/album-single-edit.php:42
+msgid "Description: "
+msgstr "描述："
+
+#: ../templates/media/media-single-edit.php:46
+msgid "Save"
+msgstr "保存"
+
+#: ../templates/media/media-single-edit.php:47
+msgid "Back"
+msgstr "返回"
+
+#: ../templates/media/media-single-edit.php:54
+msgid "Sorry !! You do not have rights to edit this media"
+msgstr "对不起！！您没有权限编辑该媒体"
+
+#: ../templates/media/media-single.php:35
+msgid "under"
+msgstr "属于"
+
+#: ../templates/media/media-single.php:82
+#: ../templates/media/media-single.php:122
+#: ../app/main/controllers/template/rt-template-functions.php:1430
+msgid "Comment"
+msgstr "评论"
+
+#: ../templates/media/album-single-edit.php:12
+msgid "Edit Album : "
+msgstr "编辑相册："
+
+#: ../templates/media/album-single-edit.php:18
+msgid "Manage Media"
+msgstr "管理媒体"
+
+#: ../templates/media/album-single-edit.php:50
+#: ../app/main/controllers/privacy/RTMediaPrivacy.php:277
+#: ../app/main/controllers/group/RTMediaGroupExtension.php:113
+msgid "Save Changes"
+msgstr "保存变更"
+
+#: ../templates/media/album-single-edit.php:64 ../app/main/RTMedia.php:903
+msgid "Select All Visible"
+msgstr "选择所有可见文件"
+
+#: ../templates/media/album-single-edit.php:65
+msgid "Move Selected media to another album."
+msgstr "移动选择的媒体到另一个相册。"
+
+#: ../templates/media/album-single-edit.php:65
+msgid "Move"
+msgstr "移动"
+
+#: ../templates/media/album-single-edit.php:67
+msgid "Delete Selected media from the album."
+msgstr "从相册中删除选择的媒体"
+
+#: ../templates/media/album-single-edit.php:67 ../app/main/RTMedia.php:914
+#: ../app/main/controllers/media/RTMediaGalleryItemAction.php:59
+#: ../app/main/controllers/media/RTMediaGalleryItemAction.php:70
+#: ../app/main/controllers/template/rt-template-functions.php:1466
+#: ../app/main/controllers/template/rt-template-functions.php:1473
+msgid "Delete"
+msgstr "删除"
+
+#: ../templates/media/album-single-edit.php:72
+msgid "Move selected media to the album : "
+msgstr "移动选择的媒体到该相册："
+
+#: ../templates/media/album-single-edit.php:74
+msgid "Move Selected"
+msgstr "移动已选项"
+
+#: ../templates/media/album-single-edit.php:96
+msgid "Prev"
+msgstr "上一个"
+
+#: ../templates/media/album-single-edit.php:105
+msgid "Next"
+msgstr "下一个"
+
+#: ../templates/media/album-single-edit.php:108
+msgid "The album is empty."
+msgstr "该相册是空的"
+
+#: ../templates/media/album-single-edit.php:118
+msgid "Sorry !! You can not edit this album."
+msgstr "对不起！！您不能编辑该相册"
+
+#: ../app/main/RTMedia.php:302
+msgid "Photo"
+msgstr "照片"
+
+#: ../app/main/RTMedia.php:303
+msgid "Photos"
+msgstr "照片"
+
+#: ../app/main/RTMedia.php:311
+msgid "Video"
+msgstr "视频"
+
+#: ../app/main/RTMedia.php:312
+msgid "Videos"
+msgstr "视频"
+
+#: ../app/main/RTMedia.php:320 ../app/main/RTMedia.php:321
+msgid "Music"
+msgstr "音乐"
+
+#: ../app/main/RTMedia.php:408
+msgid "Private - Visible only to the user"
+msgstr "私有 - 仅对自己可见"
+
+#: ../app/main/RTMedia.php:409
+msgid "Friends - Visible to user's friends"
+msgstr "朋友 - 仅朋友可见"
+
+#: ../app/main/RTMedia.php:410
+msgid "Logged in Users - Visible to registered users"
+msgstr "登录的用户 - 仅对所有注册用户可见"
+
+#: ../app/main/RTMedia.php:411
+msgid "Public - Visible to the world"
+msgstr "公开 - 所有人可见"
+
+#: ../app/main/RTMedia.php:562 ../app/importers/BPMediaAlbumimporter.php:90
+msgid "Media"
+msgstr "多媒体"
+
+#: ../app/main/RTMedia.php:568
+#: ../app/main/controllers/template/RTMediaNav.php:175
+#: ../app/main/controllers/template/rt-template-functions.php:83
+msgid "All"
+msgstr "全部"
+
+#: ../app/main/RTMedia.php:577
+#: ../app/main/controllers/upload/RTMediaUploadView.php:51
+#: ../app/main/controllers/upload/RTMediaUploadView.php:54
+#: ../app/main/controllers/media/RTMediaAlbum.php:49
+#: ../app/main/controllers/template/rt-template-functions.php:1386
+msgid "Album"
+msgstr "相册"
+
+#: ../app/main/RTMedia.php:580
+#: ../app/main/controllers/media/RTMediaAlbum.php:48
+#: ../app/main/controllers/media/RTMediaAlbum.php:60
+#: ../app/main/controllers/template/RTMediaNav.php:196
+msgid "Albums"
+msgstr "相册"
+
+#: ../app/main/RTMedia.php:588
+#: ../app/main/controllers/media/RTMediaLoginPopup.php:38
+#: ../app/main/controllers/template/rt-template-functions.php:2155
+#: ../app/main/controllers/template/rt-template-functions.php:2159
+msgid "Upload"
+msgstr "上传"
+
+#: ../app/main/RTMedia.php:592
+msgid "Wall Post"
+msgstr "默认相册"
+
+#: ../app/main/RTMedia.php:803 ../app/main/RTMedia.php:812
+msgid "Wall Posts"
+msgstr "默认相册"
+
+#: ../app/main/RTMedia.php:855
+msgid ": Can't Create Database table. Please check create table permission."
+msgstr "：不能新建数据库表。请检查建表权限。"
+
+#: ../app/main/RTMedia.php:891
+msgid "Loading media"
+msgstr "正在载入媒体"
+
+#: ../app/main/RTMedia.php:892
+msgid "Please enter some content to post."
+msgstr "请输入点什么吧。"
+
+#: ../app/main/RTMedia.php:893
+msgid "Empty Comment is not allowed."
+msgstr "评论不能为空"
+
+#: ../app/main/RTMedia.php:894
+msgid "Are you sure you want to delete this media?"
+msgstr "您确定要删除这个媒体吗？"
+
+#: ../app/main/RTMedia.php:895
+msgid "Are you sure you want to delete this comment?"
+msgstr "您确定要删除这条评论吗？"
+
+#: ../app/main/RTMedia.php:896
+msgid "Are you sure you want to delete this Album?"
+msgstr "您确定要删除这个相册吗？"
+
+#: ../app/main/RTMedia.php:897
+msgid "Drop files here"
+msgstr "拖放文件到这"
+
+#: ../app/main/RTMedia.php:898
+msgid "album created successfully."
+msgstr "相册新建成功"
+
+#: ../app/main/RTMedia.php:899
+msgid "Something went wrong. Please try again."
+msgstr "发生错误。请再试一次。"
+
+#: ../app/main/RTMedia.php:900
+msgid "Enter an album name."
+msgstr "输入相册名。"
+
+#: ../app/main/RTMedia.php:901
+msgid "Max file Size Limit : "
+msgstr "最大文件大小限制："
+
+#: ../app/main/RTMedia.php:902
+msgid "Allowed File Formats"
+msgstr "允许的文件格式"
+
+#: ../app/main/RTMedia.php:904
+msgid "Unselect All Visible"
+msgstr "取消所有可见文件的选择"
+
+#: ../app/main/RTMedia.php:905
+msgid "Please select some media."
+msgstr "请选择些媒体"
+
+#: ../app/main/RTMedia.php:906
+msgid "Are you sure you want to delete the selected media?"
+msgstr "您确定要删除选择的媒体吗？"
+
+#: ../app/main/RTMedia.php:907
+msgid "Are you sure you want to move the selected media?"
+msgstr "您确定要移动选择的媒体吗？"
+
+#: ../app/main/RTMedia.php:908
+msgid "Waiting"
+msgstr "等待中"
+
+#: ../app/main/RTMedia.php:909
+msgid "Uploaded"
+msgstr "已上传"
+
+#: ../app/main/RTMedia.php:910
+msgid "Uploading"
+msgstr "上传中"
+
+#: ../app/main/RTMedia.php:911
+msgid "Failed"
+msgstr "失败"
+
+#: ../app/main/RTMedia.php:912
+msgid "Close"
+msgstr "关闭"
+
+#: ../app/main/RTMedia.php:913
+#: ../app/main/controllers/media/RTMediaGalleryItemAction.php:56
+#: ../app/main/controllers/media/RTMediaGalleryItemAction.php:70
+#: ../app/main/controllers/template/rt-template-functions.php:730
+#: ../app/main/controllers/template/rt-template-functions.php:751
+msgid "Edit"
+msgstr "编辑"
+
+#: ../app/main/RTMedia.php:916
+msgid "Remove from queue"
+msgstr "从队列中移除"
+
+#: ../app/main/RTMedia.php:917
+msgid "Add more files"
+msgstr "添加更多文件"
+
+#: ../app/main/RTMedia.php:918
+msgid "File not supported"
+msgstr "文件不支持"
+
+#: ../app/main/RTMedia.php:919
+msgid "more"
+msgstr "更多"
+
+#: ../app/main/RTMedia.php:920
+msgid "less"
+msgstr "更少"
+
+#: ../app/main/RTMedia.php:921
+msgid "This media is uploaded. Are you sure you want to delete this media?"
+msgstr "媒体已经上传。您确定要删除这个媒体吗？"
+
+#: ../app/main/RTMedia.php:965
+msgid "There are some uploads in progress. Do you want to cancel them?"
+msgstr "有些文件还在上传中。您确定要取消它们吗？"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:166
+msgid "username/password empty"
+msgstr "用户名/密码 为空"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:169
+msgid "incorrect username"
+msgstr "用户名不正确"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:172
+msgid "incorrect password"
+msgstr "密码不正确"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:175
+msgid "login success"
+msgstr "登录成功"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:221
+msgid "fields empty"
+msgstr "数值项为空"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:224
+msgid "invalid email"
+msgstr "电子邮件无效"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:227
+msgid "password do not match"
+msgstr "密码不匹配"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:230
+msgid "username already registered"
+msgstr "用户名已被使用"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:233
+msgid "email already exists"
+msgstr "邮件地址已经存在"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:236
+msgid "new user created"
+msgstr "新用户已建立"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:297
+msgid "email empty"
+msgstr "邮件为空"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:300
+msgid "username/email not registered"
+msgstr "用户名/邮件 没有注册过"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:303
+msgid "reset link sent"
+msgstr "重置已发链接"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:335
+msgid ""
+"Someone has asked to reset the password for the following site and username."
+msgstr "有人请求为以下站点和用户名重置密码"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:337
+#, php-format
+msgid "Username: %s"
+msgstr "用户名： %s"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:338
+msgid ""
+"To reset your password visit the following address, otherwise just ignore "
+"this email and nothing will happen."
+msgstr "点击下方的地址以重置您的密码，否则就无视这封邮件，一切维持原样。"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:341
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] 密码重置"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:356
+msgid "bp activities"
+msgstr "Buddypress 动态"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:359
+msgid "user activities"
+msgstr "用户动态"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:389
+msgid "comment content missing"
+msgstr "缺少评论内容"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:392
+msgid "comment posted"
+msgstr "评论已发"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:439
+msgid "unliked media"
+msgstr "取消赞的媒体"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:442
+msgid "liked media"
+msgstr "点赞的媒体"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:526
+msgid "no comments"
+msgstr "没有评论"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:529
+msgid "media comments"
+msgstr "媒体评论"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:532
+msgid "my comments"
+msgstr "我的评论"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:582
+msgid "no likes"
+msgstr "没有赞"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:585
+msgid "media likes"
+msgstr "媒体的赞"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:627
+msgid "invalid comment/media id"
+msgstr "无效评论/媒体文件标识"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:630
+msgid "no comment id"
+msgstr "没有评论标识"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:633
+msgid "comment deleted"
+msgstr "评论已删除"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:676
+msgid "no profile found"
+msgstr "没有找到资料"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:679
+msgid "profile fields"
+msgstr "资料项"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:773
+msgid "follow user id missing"
+msgstr "缺少关注的用户标识"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:776
+msgid "started following"
+msgstr "已开始关注"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:779
+msgid "already following"
+msgstr "已关注"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:811
+msgid "unfollow id missing"
+msgstr "缺少取消关注的用户标识"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:814
+msgid "stopped following"
+msgstr "停止关注"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:817
+msgid "not following"
+msgstr "不关注"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:849
+msgid "name/location empty"
+msgstr "名字/位置 为空"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:852
+msgid "profile updated"
+msgstr "资料已更新"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:878
+#: ../app/main/controllers/api/RTMediaJsonApi.php:905
+msgid "no file"
+msgstr "没有文件"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:881
+#: ../app/main/controllers/api/RTMediaJsonApi.php:917
+msgid "upload failed, check size and file type"
+msgstr "上传失败，检查文件大小和类型"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:884
+msgid "avatar updated"
+msgstr "头像已更新"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:908
+msgid "invalid file string"
+msgstr "文件内容无效"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:911
+msgid "image type missing"
+msgstr "没有图像类型"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:914
+msgid "no title"
+msgstr "没有标题"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:920
+msgid "media updated"
+msgstr "媒体已更新"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:1050
+msgid "media list"
+msgstr "媒体列表"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:1053
+msgid "no media found for requested media type"
+msgstr "没有找到与请求媒体类型一致的媒体"
+
+#: ../app/main/controllers/api/RTMediaJsonApi.php:1056
+msgid "media_type not allowed"
+msgstr "媒体类型不允许"
+
+#: ../app/admin/RTMediaFormHandler.php:350
+msgid ""
+"To set gallery for fixed width, set image height to 0 and width as per your "
+"requirement and vice-versa."
+msgstr ""
+"要设成固定宽度的媒体库，请把图像高度设为0并按您的需求设置图像宽度， 反之亦"
+"然。"
+
+#: ../app/admin/RTMediaFormHandler.php:353
+msgid "Enable Direct Upload"
+msgstr "启用直接上传"
+
+#: ../app/admin/RTMediaFormHandler.php:358
+msgid "Uploading media directly as soon as it gets selected."
+msgstr "图像一经选择就立即上传"
+
+#: ../app/admin/RTMediaFormHandler.php:384
+msgid "Single Media View"
+msgstr "单媒体视图"
+
+#: ../app/admin/RTMediaFormHandler.php:385
+msgid "List Media View"
+msgstr "媒体列表视图"
+
+#: ../app/admin/RTMediaFormHandler.php:386
+msgid "Masonry View"
+msgstr "砌石式（Masonry）视图"
+
+#: ../app/admin/RTMediaFormHandler.php:387
+msgid "Direct Upload"
+msgstr "直接上传"
+
+#: ../app/admin/RTMediaFormHandler.php:405
+msgid "Allow usage data tracking"
+msgstr "允许数据使用量追踪"
+
+#: ../app/admin/RTMediaFormHandler.php:410
+msgid ""
+"To make rtMedia better compatible with your sites, you can help the rtMedia "
+"team learn what themes and plugins you are using. No private information "
+"about your setup will be sent during tracking."
+msgstr ""
+"为了让rtMedia和您的站点有更好的兼容性，您可以帮助rtMedia团队了解您正在使用的"
+"主题和插件。在数据追踪过程中，有关您设置的私有信息将不会被发送。"
+
+#: ../app/admin/RTMediaFormHandler.php:414
+msgid "Admin bar menu integration"
+msgstr "集成到管理员工具栏菜单"
+
+#: ../app/admin/RTMediaFormHandler.php:419
+msgid ""
+"Add rtMedia menu to WordPress admin bar for easy access to settings and "
+"moderation page (if enabled)."
+msgstr ""
+"把rtMedia菜单添加到Wordpress管理员工具栏上是为了容易访问设置和审查页面（如果"
+"启用）"
+
+#: ../app/admin/RTMediaFormHandler.php:424
+msgid "Add a link to rtMedia in footer"
+msgstr "在页脚处添加一个指向rtMedia的链接"
+
+#: ../app/admin/RTMediaFormHandler.php:429
+msgid "Help us promote rtMedia."
+msgstr "帮助我们改善rtMedia。"
+
+#: ../app/admin/RTMediaFormHandler.php:434
+msgid "Also add my affiliate-id to rtMedia footer link"
+msgstr "把我的加盟ID也添加到页脚处rtMedia的链接里"
+
+#: ../app/admin/RTMediaFormHandler.php:439
+msgid ""
+"Add your affiliate-id along with footer link and get rewarded by our "
+"affiliation program."
+msgstr ""
+"把您的加盟ID一起添加进页脚处的链接里，从而可通过我们的加盟计划获得奖励。"
+
+#: ../app/admin/RTMediaFormHandler.php:443
+msgid ""
+"Signup for rtMedia affiliate program <a href=\"https://rtcamp.com/affiliates"
+"\">here</a>"
+msgstr ""
+"注册rtMedia的加盟计划 <a href=\"https://rtcamp.com/affiliates\">这里</a>"
+
+#: ../app/admin/RTMediaFormHandler.php:446
+msgid "Enable JSON API"
+msgstr "启用JSON 应用程序接口"
+
+#: ../app/admin/RTMediaFormHandler.php:451
+msgid ""
+"This will allow handling API requests for rtMedia sent through any mobile "
+"app."
+msgstr "这将允许处理发送自任何移动应用程序对于rtMedia的API请求"
+
+#: ../app/main/controllers/template/rt-template-functions.php:2339
+msgid "d F Y"
+msgstr "Y年m月d日"

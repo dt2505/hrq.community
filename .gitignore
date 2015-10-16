@@ -1,6 +1,51 @@
-# Ignore everything
-*
+# -============Ignore everything with extention============-
+*.*
+wp-content/plugins/buddypress-cover-photo/LICENSE
 
-# But not these files...
+# -===================But not these files==================-
 !.gitignore
+
+# theme - newspaper
 !wp-content/themes/Newspaper/includes/wp_booster/td_module.php
+!custom/theme/newspaper-comment/same-as-detailed-post/comment-bubble-style.css
+!custom/theme/newspaper-comment/same-as-detailed-post/td_module.php
+!custom/theme/newspaper-comment/same-as-newsmag/comment-bubble-style.css
+
+# theme - kleo
+!wp-content/themes/kleo/lib/metaboxes.php
+!wp-content/themes/kleo-child/functions.php
+!wp-content/themes/kleo-child/style.css
+
+# fix the issue caused by delaying to close the submenu of live notification
+!wp-content/themes/kleo/assets/js/app.js
+!wp-content/themes/kleo/assets/js/app.min.js
+
+!wp-content/languages/themes/kleo_framework-zh_CN.mo
+!wp-content/languages/themes/kleo_framework-zh_CN.po
+!wp-content/themes/kleo/languages/kleo_framework.pot
+
+# plugin - rtMedia
+# fix the date format at line: 2339
+!wp-content/plugins/buddypress-media/app/main/controllers/template/rt-template-functions.php
+!wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.mo
+!wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.po
+!wp-content/plugins/buddypress-media/languages/rtmedia.po
+# bp-follow
+!wp-content/plugins/buddypress-followers/languages/bp-follow-zh_CN.mo
+!wp-content/plugins/buddypress-followers/languages/bp-follow-zh_CN.po
+!wp-content/plugins/buddypress-followers/languages/bp-follow.pot
+# bp cover photo
+!wp-content/languages/plugins/bpcp-zh_CN.mo
+!wp-content/languages/plugins/bpcp-zh_CN.po
+!wp-content/plugins/buddypress-cover-photo/languages/bpcp-en_US.po
+#bp profile search
+!wp-content/languages/plugins/bp-profile-search-zh_CN.mo
+!wp-content/languages/plugins/bp-profile-search-zh_CN.po
+
+#buddypress
+!wp-content/plugins/bp-custom.php
+!wp-content/languages/plugins/buddypress-zh_CN.mo
+!wp-content/languages/plugins/buddypress-zh_CN.po
+!wp-content/plugins/buddypress/buddypress.pot
+# fix the translation issue in group pagination, line: 1842
+!wp-content/plugins/buddypress/bp-groups/bp-groups-template.php
