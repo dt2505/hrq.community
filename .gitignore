@@ -30,19 +30,19 @@ wp-content/plugins/buddypress-cover-photo/LICENSE
 !wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.mo
 !wp-content/plugins/buddypress-media/languages/rtmedia-zh_CN.po
 !wp-content/plugins/buddypress-media/languages/rtmedia.po
-# bp-follow
+# plugin - bp-follow
 !wp-content/plugins/buddypress-followers/languages/bp-follow-zh_CN.mo
 !wp-content/plugins/buddypress-followers/languages/bp-follow-zh_CN.po
 !wp-content/plugins/buddypress-followers/languages/bp-follow.pot
-# bp cover photo
+# plugin - bp cover photo
 !wp-content/languages/plugins/bpcp-zh_CN.mo
 !wp-content/languages/plugins/bpcp-zh_CN.po
 !wp-content/plugins/buddypress-cover-photo/languages/bpcp-en_US.po
-#bp profile search
+# plugin - bp profile search
 !wp-content/languages/plugins/bp-profile-search-zh_CN.mo
 !wp-content/languages/plugins/bp-profile-search-zh_CN.po
 
-#buddypress
+# plugin - buddypress
 !wp-content/plugins/bp-custom.php
 !wp-content/languages/plugins/buddypress-zh_CN.mo
 !wp-content/languages/plugins/buddypress-zh_CN.po
