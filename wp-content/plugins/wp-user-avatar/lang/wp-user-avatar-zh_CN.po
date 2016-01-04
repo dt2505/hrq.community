@@ -1,0 +1,443 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP USER AVATAR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-08 17:46+0530\n"
+"PO-Revision-Date: 2015-12-25 22:21+1000\n"
+"Last-Translator: Flipper Code <hello@flippercode.com>\n"
+"Language-Team: Flipper Code <hello@flippercode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /applications/xampp/xamppfiles/htdocs/demos/wp-"
+"content/plugins/wp-user-avatar\n"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:113
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:266
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-widget.php:16
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:21
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:43
+msgid "WP User Avatar"
+msgstr "WP 用户头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:113
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:148
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-media-page.php:93
+msgid "Avatars"
+msgstr "头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:114
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:298
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:71
+msgid "Settings"
+msgstr "设置"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:115
+msgid "Library"
+msgstr "媒体库"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:229
+msgid "Mystery Man"
+msgstr "访客"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:230
+msgid "Blank"
+msgstr "空白"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:231
+msgid "Gravatar Logo"
+msgstr "Gravatar徽标"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:232
+msgid "Identicon (Generated)"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:233
+msgid "Wavatar (Generated)"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:234
+msgid "MonsterID (Generated)"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:235
+msgid "Retro (Generated)"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:267
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:176
+msgid "Choose Image"
+msgstr "选择照片"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:267
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:381
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:192
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:195
+msgid "Default Avatar"
+msgstr "默认头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:268
+msgid "Remove"
+msgstr "删除"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:268
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:202
+msgid "Undo"
+msgstr "撤销"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:312
+msgid "Support Forums"
+msgstr "支持论坛"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:324
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:378
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:118
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-functions.php:79
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-functions.php:88
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-functions.php:93
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-functions.php:152
+msgid "Avatar"
+msgstr "头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:142
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:391
+msgid "Delete Permanently"
+msgstr "永久删除"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:171
+msgid "No media attachments found."
+msgstr "没有找到媒体文件"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:184
+msgid "Author"
+msgstr "作者"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:253
+#, php-format
+msgid "Select %s"
+msgstr "选择 %s"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:268
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:283
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr "编辑 &#8220;%s&#8221;"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:313
+msgid "Unpublished"
+msgstr "取消发布"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:319
+#, php-format
+msgid "%s from now"
+msgstr "%s 之后"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:321
+#, php-format
+msgid "%s ago"
+msgstr "%s 之前"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:323
+msgid "Y/m/d"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:381
+msgid "Edit"
+msgstr "编辑"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:385
+msgid "Restore"
+msgstr "恢复"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:387
+msgid "Trash"
+msgstr "删除"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:396
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr "查看 &#8220;%s&#8221;"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-list-table.php:396
+msgid "View"
+msgstr "查看"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:212
+msgid "Profile updated."
+msgstr "个人资料已更新"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:236
+msgid "Update Profile"
+msgstr "更新个人资料"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-subscriber.php:99
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有访问当前页面的权限"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-widget.php:15
+msgid "Insert"
+msgstr "插入"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-widget.php:15
+msgid "[avatar_upload]"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-widget.php:72
+msgid "Title:"
+msgstr "标题："
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-widget.php:76
+msgid "Description:"
+msgstr "描述："
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-widget.php:81
+msgid "Automatically add paragraphs"
+msgstr "自动增加段落"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:180
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:119
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:191
+msgid "Upload"
+msgstr "上传"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:183
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:123
+#, php-format
+msgid "Maximum upload file size: %d%s."
+msgstr "最大上传文件大小：%d%s。"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:184
+msgid "Allowed Files"
+msgstr "允许的文件"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:184
+msgid "<code>jpg jpeg png gif</code>"
+msgstr ""
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:190
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:137
+msgid "Original Size"
+msgstr "原始大小"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:194
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:140
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:197
+msgid "Remove Image"
+msgstr "删除照片"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:199
+msgid "Edit Image"
+msgstr "编辑照片"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:226
+msgid "This file is not an image. Please try another."
+msgstr "上传的文件不是一张照片。请上传一张照片。"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:230
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:256
+msgid "Memory exceeded. Please try another smaller file."
+msgstr "超出内存大小。请上传一张较小的文件。"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:234
+#, php-format
+msgid ""
+"Unable to create directory %s. Is its parent directory writable by the "
+"server?"
+msgstr "无法新建目录 %s。当前目录的上一级目录对服务器有写权限吗？"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:124
+msgid "User Name"
+msgstr "用户名"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:134
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:146
+msgid "Size"
+msgstr "大小"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:138
+msgid "Large"
+msgstr "大"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:139
+msgid "Medium"
+msgstr "中"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:141
+msgid "Custom"
+msgstr "自定义"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:151
+msgid "Alignment"
+msgstr "对齐"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:154
+msgid "Center"
+msgstr "居中"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:155
+msgid "Left"
+msgstr "靠左"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:156
+msgid "Right"
+msgstr "靠右"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:161
+msgid "Link To"
+msgstr "连接到"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:164
+msgid "Image File"
+msgstr "图像文件"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:165
+msgid "Attachment Page"
+msgstr "附件页面"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:166
+msgid "Custom URL"
+msgstr "自定义URL"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:171
+msgid "URL"
+msgstr "URL"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:177
+msgid "Open link in a new window"
+msgstr "在新窗口打开链接"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:181
+msgid "Caption"
+msgstr "标题"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:186
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/tinymce/window.php:196
+msgid "Insert into Post"
+msgstr "插入到文章中"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-functions.php:90
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-functions.php:96
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-functions.php:155
+msgid "Image"
+msgstr "图像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-functions.php:189
+msgid "Do you like WP User Avatar?"
+msgstr "您喜欢WP User Avartar插件吗？"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-functions.php:189
+msgid "Try our Google Maps Plugin."
+msgstr "试用我们的Google 地图插件"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-media-page.php:39
+msgid "You do not have permission to upload files."
+msgstr "您没有上传文件的权限。"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-media-page.php:71
+msgid "You are not allowed to delete this post."
+msgstr "您没有删除的权限。"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-media-page.php:74
+msgid "Error in deleting."
+msgstr "删除时出错。"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-media-page.php:95
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "对&#8220;%s&#8221;的搜索结果"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-media-page.php:110
+msgid "Search"
+msgstr "搜索"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:79
+msgid "Add avatar button to Visual Editor"
+msgstr "把头像按钮加入到可视化编辑器中"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:85
+msgid "Allow Contributors & Subscribers to upload avatars"
+msgstr "允许投稿者和订阅者上传头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:91
+msgid "Disable Gravatar and use only local avatars"
+msgstr "禁用Gravatar并且仅使用本地头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:113
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:118
+msgid "Upload Size Limit"
+msgstr "上传大小限制"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:113
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:118
+msgid "(only for Contributors & Subscribers)"
+msgstr "（仅对于投稿者和订阅者）"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:121
+#, php-format
+msgid "%s exceeds the maximum upload size for this site."
+msgstr "%s 超过了当前设置的最大上传大小"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:128
+msgid "Allow users to edit avatars"
+msgstr "允许用户编辑头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:134
+msgid "Resize avatars on upload"
+msgstr "在上传时重设头像大小"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:138
+msgid "Width"
+msgstr "宽"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:140
+msgid "Height"
+msgstr "高"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:144
+msgid "Crop avatars to exact dimensions"
+msgstr "精确裁剪头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:160
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:163
+msgid "Avatar Display"
+msgstr "显示头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:166
+msgid "Show Avatars"
+msgstr "显示头像"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:172
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:175
+msgid "Maximum Rating"
+msgstr "最大限制级"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:178
+msgid "G &#8212; Suitable for all audiences"
+msgstr "G &#8212; 适合所有人群"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:179
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr "PG &#8212; 会有限制级，通常适合13岁及以上的人群"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:180
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr "R &#8212; 适合17岁以上的人群"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:181
+msgid "X &#8212; Even more mature than above"
+msgstr "X &#8212; 适合成年人"
+
+#: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/wpua-options-page.php:196
+msgid ""
+"For users without a custom avatar of their own, you can either display a "
+"generic logo or a generated one based on their e-mail address."
+msgstr ""
+"对于没有设置头像的用户，您可以显示站点徽标或是根据他们的邮件地址生成一张图片"

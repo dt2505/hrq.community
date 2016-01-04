@@ -49,3 +49,6 @@ wp-content/plugins/buddypress-cover-photo/LICENSE
 !wp-content/plugins/buddypress/buddypress.pot
 # fix the translation issue in group pagination, line: 1842
 !wp-content/plugins/buddypress/bp-groups/bp-groups-template.php
+
+!wp-content/plugins/wp-user-avatar/lang/wp-user-avatar-zh_CN.po
+!wp-content/plugins/wp-user-avatar/lang/wp-user-avatar-zh_CN.mo
